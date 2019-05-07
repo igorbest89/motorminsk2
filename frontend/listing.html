@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="utf-8" />
+	<title>Listing</title>
+	<meta name="description" content="" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="shortcut icon" href="img/favicon.png" />
+
+	<link rel="stylesheet" href="libs/bootstrap/bootstrap-grid-3.3.1.min.css" />
+	<link rel="stylesheet" href="assets/css/reset.css" />
+	<link rel="stylesheet" href="libs/jq_form_styler/jquery_formstyler.css" />
+	<link rel="stylesheet" href="libs/slick-1.8.0/slick.css" />
+	<link rel="stylesheet" href="libs/custom_scrollbar/custom_scrollbar.css" />
+
+	<link rel="stylesheet" href="assets/css/fonts.css" />
+	<link rel="stylesheet" href="assets/css/main_style.css" />
+	<link rel="stylesheet" href="assets/css/media_style.css" />
+</head>
+<body>
+<div class="container-fluide">
+	<div class="search_wrap">
+		<form action="#" method="GET">
+			<input type="text" value="Что будем искать?" />
+			<button type="submit">
+				<i class="icon icon-search"></i>
+			</button>
+		</form>
+	</div>
+</div>
+<section>
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12">
+				<div class="breadcrumb">
+					<ul>
+						<li>
+							<a href="#">Главная /</a>
+						</li>
+						<li>
+							<a href="#">Каталог /</a>
+						</li>
+						<li>
+							<a href="#">Запчасти для двигателя /</a>
+						</li>
+						<li>Блоки цилиндров</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section class="top-title">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12">
+				<a href="#" class="back_link">
+					<i class="icon icon-back"></i>
+					<span>Назад</span>
+				</a>
+				<h1>Блоки цилиндров</h1>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section class="listing">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-4">
+				<div id="allCatOpen" class="all_category">
+					<a href="#">Выбор запчасти</a>
+					<i class="icon icon-sandwich"></i>
+				</div>
+				<div id="allCat" class="menu-wrapper">
+					<div class="first">
+						<input id="match-search" type="text" placeholder="Поиск по категориям" />
+						<i class="icon icon-search-2"></i>
+					</div>
+					<div class="category_menu">
+						<ul>
+							<li id="not">
+								<a href="#">Совпадений не найдено!</a>
+							</li>
+							<li>
+								<a href="#">Двигатели</a>
+								<i class="icon icon-arrow"></i>
+								<ul class="category_menu-sub_menu">
+									<li>
+										<a href="#">Двигатели 1</a>
+									</li>
+									<li>
+										<a href="#">Двигатели 2</a>
+									</li>
+									<li>
+										<a href="#">Двигатели 3</a>
+									</li>
+									<li>
+										<a href="#">Двигатели 4</a>
+									</li>
+								</ul>
+							</li>
+							<li>
+								<a href="#">Запчасти для двигателя</a>
+								<i class="icon icon-arrow"></i>
+							</li>
+							<li>
+								<a href="#">Система охлаждения</a>
+								<i class="icon icon-arrow"></i>
+							</li>
+							<li>
+								<a href="#">Кузовные запчасти</a>
+								<i class="icon icon-arrow"></i>
+							</li>
+							<li>
+								<a href="#">Трансмиссия</a>
+								<i class="icon icon-arrow"></i>
+							</li>
+							<li>
+								<a href="#">Подвеска</a>
+								<i class="icon icon-arrow"></i>
+								<ul class="category_menu-sub_menu">
+									<li>
+										<a href="#">Подвеска 1</a>
+									</li>
+									<li>
+										<a href="#">Подвеска 2</a>
+									</li>
+								</ul>
+							</li>
+							<li>
+								<a href="#">Тормозная система</a>
+								<i class="icon icon-arrow"></i>
+							</li>
+							<li>
+								<a href="#">Рулевое управление</a>
+								<i class="icon icon-arrow"></i>
+							</li>
+							<li>
+								<a href="#">Оптика и свет</a>
+								<i class="icon icon-arrow"></i>
+							</li>
+							<li>
+								<a href="#">Электрооборудование</a>
+								<i class="icon icon-arrow"></i>
+							</li>
+							<li>
+								<a href="#">Системы безопасности</a>
+								<i class="icon icon-arrow"></i>
+							</li>
+							<li>
+								<a href="#">Климат контроль</a>
+								<i class="icon icon-arrow"></i>
+							</li>
+							<li>
+								<a href="#">Система омывателя</a>
+								<i class="icon icon-arrow"></i>
+							</li>
+							<li>
+								<a href="#">Топливная система</a>
+								<i class="icon icon-arrow"></i>
+							</li>
+							<li>
+								<a href="#">Мультимедиа</a>
+								<i class="icon icon-arrow"></i>
+							</li>
+							<li>
+								<a href="#">Выхлопная система</a>
+								<i class="icon icon-arrow"></i>
+							</li>
+							<li>
+								<a href="#">Салон</a>
+								<i class="icon icon-arrow"></i>
+							</li>
+							<li>
+								<a href="#">Шины</a>
+								<i class="icon icon-arrow"></i>
+							</li>
+							<li>
+								<a href="#">Диски</a>
+								<i class="icon icon-arrow"></i>
+								<ul class="category_menu-sub_menu">
+									<li>
+										<a href="#">Диски 1</a>
+									</li>
+									<li>
+										<a href="#">Диски 2</a>
+									</li>
+								</ul>
+							</li>
+						</ul>
+					</div>
+					<div class="last">
+						<a href="#">Смотреть весь каталог</a>
+					</div>
+				</div>
+				<h4 class="filter-title">Фильтр</h4>
+				<div class="filter-wrap">
+					<form action="#">
+						<div class="filter-item">
+							<span>Авто</span>
+							<select data-placeholder="Марка" name="#">
+								<option value="0"></option>
+								<option value="All">Все марки</option>
+								<option value="Alfa-Romeo">Alfa-Romeo</option>
+								<option value="Audi">Audi</option>
+								<option value="BMW">BMW</option>
+								<option value="Chevrolet">Chevrolet</option>
+								<option value="Chrysler">Chrysler</option>
+								<option value="Citroen">Citroen</option>
+								<option value="Dacia">Dacia</option>
+								<option value="Daewoo">Daewoo</option>
+								<option value="Dodge">Dodge</option>
+								<option value="Fiat">Fiat</option>
+								<option value="Ford">Ford</option>
+								<option value="Honda">Honda</option>
+							</select>
+							<select data-placeholder="Модель" name="#">
+								<option value="0"></option>
+								<option value="1">Модель 1</option>
+							</select>
+							<select data-placeholder="Поколение" name="#">
+								<option value="0"></option>
+								<option value="1">Поколение 1</option>
+							</select>
+						</div>
+						<div class="filter-item">
+							<span>Двигатель</span>
+							<select data-placeholder="Тип топлива" name="#">
+								<option value="0"></option>
+								<option value="1">Тип топлива 1</option>
+							</select>
+							<select data-placeholder="Тип двигателя" name="#">
+								<option value="0"></option>
+								<option value="1">Тип двигателя 1</option>
+							</select>
+							<select data-placeholder="Объем двигателя" name="#">
+								<option value="0"></option>
+								<option value="1">Объем двигателя 1</option>
+							</select>
+						</div>
+						<div class="filter-item">
+							<span>Трансмиссия</span>
+							<select data-placeholder="КПП" name="#">
+								<option value="0"></option>
+								<option value="1">КПП 1</option>
+							</select>
+							<select data-placeholder="Привод" name="#">
+								<option value="0"></option>
+								<option value="1">Привод 1</option>
+							</select>
+						</div>
+						<div class="filter-item">
+							<span>Кузов</span>
+							<select data-placeholder="Тип кузова" name="#">
+								<option value="0"></option>
+								<option value="1">Тип кузова 1</option>
+							</select>
+						</div>
+						<div class="filter-result">
+							<span>Надено товаров <em>321</em></span>
+							<button>Показать</button>
+						</div>
+					</form>
+				</div>
+			</div>
+			<div class="col-lg-8">
+				<div class="sorting">
+					<span>Сортировать по:</span>
+					<form action="#">
+						<select name="#">
+							<option value="0">Цене</option>
+							<option value="1">По возрастанию</option>
+							<option value="2">По убыванию</option>
+						</select>
+					</form>
+					<div class="listing-icon_wrap">
+						<i id="listing_string" class="icon icon-listing_string active"></i>
+						<i id="listing_card" class="icon icon-listing_card"></i>
+					</div>
+				</div>
+				<!-- <div class="listing-wrap clearfix">
+					<div class="listing-item clearfix">
+						<div class="listing-item_img listing--several_img">
+							<div class="img" style="background-image: url(img/product.png);"></div>
+							<div class="img" style="background-image: url(img/product.png);"></div>
+							<div class="img" style="background-image: url(img/product.png);"></div>
+							<div class="img" style="background-image: url(img/product.png);"></div>
+							<div class="img" style="background-image: url(img/product.png);">
+								<a href="#">
+									Еще <span>12</span> фото
+								</a>
+							</div>
+						</div>
+						<div class="listing-item_descr">
+							<h3>Блок цилиндров бензиновый на Ford Focus 1</h3>
+							<div>
+								<em>Тип ДВС</em><span>AR7</span>
+							</div>
+							<div>
+								<em>Топливо</em><span>Дизель</span>
+							</div>
+							<div class="price">
+								<em>Цена</em><strong><i>47,64</i> РУБ</strong>
+							</div>
+						</div>
+					</div>
+					<div class="listing-item clearfix">
+						<div class="listing-item_img">
+							<div class="img" style="background-image: url(img/product.png);"></div>
+						</div>
+						<div class="listing-item_descr">
+							<h3>Блок цилиндров бензиновый на Ford Focus 1</h3>
+							<div>
+								<em>Тип ДВС</em><span>AR7</span>
+							</div>
+							<div>
+								<em>Топливо</em><span>Дизель</span>
+							</div>
+							<div class="price">
+								<em>Цена</em><strong><i>47,64</i> РУБ</strong>
+							</div>
+						</div>
+					</div>
+					<div class="listing-item clearfix">
+						<div class="listing-item_img">
+							<div class="img" style="background-image: url(img/product.png);"></div>
+						</div>
+						<div class="listing-item_descr">
+							<h3>Блок цилиндров бензиновый на Ford Focus 1</h3>
+							<div>
+								<em>Тип ДВС</em><span>AR7</span>
+							</div>
+							<div>
+								<em>Топливо</em><span>Дизель</span>
+							</div>
+							<div class="price">
+								<em>Цена</em><strong><i>47,64</i> РУБ</strong>
+							</div>
+						</div>
+					</div>
+				</div> -->
+				<div class="listing-wrap clearfix">
+					<div class="listing-item listing-item--string clearfix">
+						<div class="listing-item_img listing--several_img" >
+							<div class="img" style="background-image: url(img/product.png);"></div>
+							<div class="img" style="background-image: url(img/product.png);"></div>
+							<div class="img" style="background-image: url(img/product.png);"></div>
+							<div class="img" style="background-image: url(img/product.png);"></div>
+							<div class="img" style="background-image: url(img/product.png);">
+								<a href="#">
+									Еще <span>12</span> фото
+								</a>
+							</div>
+						</div>
+						<div class="listing-item_descr">
+							<h3>Блок цилиндров бензиновый на Ford Focus 1</h3>
+							<div class="price">
+								<em>Цена</em><strong><i>47,64</i> РУБ</strong>
+							</div>
+							<div>
+								<em>Тип ДВС</em><span>AR7</span>
+							</div>
+							<div>
+								<em>Объем</em><span>2 900</span>
+							</div>
+							<div>
+								<em>Тип топлива</em><span>Дизель</span>
+							</div>
+						</div>
+					</div>
+					<div class="listing-item listing-item--string clearfix">
+						<div class="listing-item_img">
+							<div class="img" style="background-image: url(img/product.png);"></div>
+						</div>
+						<div class="listing-item_descr">
+							<h3>Блок цилиндров бензиновый на Ford Focus 1</h3>
+							<div class="price">
+								<em>Цена</em><strong><i>47,64</i> РУБ</strong>
+							</div>
+							<div>
+								<em>Тип ДВС</em><span>AR7</span>
+							</div>
+							<div>
+								<em>Объем</em><span>2 900</span>
+							</div>
+							<div>
+								<em>Тип топлива</em><span>Дизель</span>
+							</div>
+						</div>
+					</div>
+					<div class="listing-item listing-item--string clearfix">
+						<div class="listing-item_img">
+							<div class="img" style="background-image: url(img/product.png);"></div>
+						</div>
+						<div class="listing-item_descr">
+							<h3>Блок цилиндров бензиновый на Ford Focus 1</h3>
+							<div class="price">
+								<em>Цена</em><strong><i>47,64</i> РУБ</strong>
+							</div>
+							<div>
+								<em>Тип ДВС</em><span>AR7</span>
+							</div>
+							<div>
+								<em>Объем</em><span>2 900</span>
+							</div>
+							<div>
+								<em>Тип топлива</em><span>Дизель</span>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="pagination">
+					<ul class="clearfix">
+						<li class="first not-active">
+							<a href="#">
+								<span>Перв.</span>
+							</a>
+						</li>
+						<li class="prev not-active">
+							<a href="#">
+								<i class="icon icon-pagination-l"></i>
+							</a>
+						</li>
+						<li class="active">
+							<a href="#">1</a>
+						</li>
+						<li>
+							<a href="#">2</a>
+						</li>
+						<li>
+							<a href="#">...</a>
+						</li>
+						<li>
+							<a href="#">20</a>
+						</li>
+						<li>
+							<a href="#">30</a>
+						</li>
+						<li class="next">
+							<a href="#">
+								<i class="icon icon-pagination-r"></i>
+							</a>
+						</li>
+						<li class="last">
+							<a href="#">
+								<span>Посл.</span>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<div id="overlay"></div>
+
+	<script src="libs/jquery/jquery-3.2.1.min.js"></script>
+	<script src="libs/jq_form_styler/jquery_formstyler.min.js"></script>
+	<script src="libs/slick-1.8.0/slick.min.js"></script>
+	<script src="libs/custom_scrollbar/custom_scrollbar.min.js"></script>
+	<script src="assets/js/main_script.js"></script>
+</body>
+</html>

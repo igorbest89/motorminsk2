@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="utf-8" />
+	<title>UI</title>
+	<meta name="description" content="" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="shortcut icon" href="img/favicon.png" />
+
+	<link rel="stylesheet" href="libs/bootstrap/bootstrap-grid-3.3.1.min.css" />
+	<link rel="stylesheet" href="assets/css/reset.css" />
+	<link rel="stylesheet" href="libs/jq_form_styler/jquery_formstyler.css" />
+	<link rel="stylesheet" href="libs/slick-1.8.0/slick.css" />
+	<link rel="stylesheet" href="libs/custom_scrollbar/custom_scrollbar.css" />
+
+	<link rel="stylesheet" href="assets/css/fonts.css" />
+	<link rel="stylesheet" href="assets/css/main_style.css" />
+	<link rel="stylesheet" href="assets/css/media_style.css" />
+</head>
+<body>
+
+<header>
+	<div class="top">		
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-2">
+					<small>Центр обслуживания</small>
+				</div>
+				<div class="col-lg-6">
+					<div class="tel">
+						<i class="icon icon-phone"></i>
+						<small>Безнал</small>
+						<a href="tel:+375 (17) 279-43-79">
+							<span>+375 (17) 279-43-79</span>
+						</a>
+						<span class="line"></span>
+						<small>Наличные</small>
+						<a href="tel:+375 (29) 679-43-54">
+							<span>+375 (29) 679-43-54</span>
+						</a>
+					</div>
+				</div>
+				<div class="col-lg-3">
+					<div class="time">
+						<i class="icon icon-clock"></i>
+						<span>Пн - Пт 9:00 - 18:00</span>
+					</div>
+				</div>
+				<div class="col-lg-1">
+					<div class="cart">
+						<a id="modal-cart-link" href="#">
+							<i class="icon icon-cart"></i>
+							<span class="cart-count">5</span>
+						</a>
+						<div id="modal-cart" class="modal-cart">
+							<div class="modal-cart_head">
+								<span>В корзине</span>
+								<span>5 товаров</span>
+							</div>
+							<div class="modal-cart_body">
+								<div class="modal-cart_item clearfix">
+									<div class="cart-item_img">
+										<img src="img/product-cart.png" alt="#">
+									</div>
+									<div class="cart-item_descr">
+										<h3>Расширительный бак (ТС/ХС) Flexcon R 12/1,5 - 6 bar Россия</h3>
+										<span class="price">1 x 100 руб</span>
+									</div>
+									<a href="#">
+										<i class="icon icon-delete"></i>
+									</a>
+								</div>
+								<div class="modal-cart_item clearfix">
+									<div class="cart-item_img">
+										<img src="img/product-cart.png" alt="#">
+									</div>
+									<div class="cart-item_descr">
+										<h3>Расширительный бак (ТС/ХС) Flexcon R 12/1,5 - 6 bar Россия</h3>
+										<span class="price">1 x 47, 08 руб</span>
+									</div>
+									<a href="#">
+										<i class="icon icon-delete"></i>
+									</a>
+								</div>
+								<div class="modal-cart_item clearfix">
+									<div class="cart-item_img">
+										<img src="img/product-cart.png" alt="#">
+									</div>
+									<div class="cart-item_descr">
+										<h3>Расширительный бак (ТС/ХС) Flexcon R 12/1,5 - 6 bar Россия</h3>
+										<span class="price">1 x 100 руб</span>
+									</div>
+									<a href="#">
+										<i class="icon icon-delete"></i>
+									</a>
+								</div>
+							</div>
+							<div class="modal-cart_footer">
+								<div class="modal-cart_result">
+									<span>Итого</span>
+									<strong>147, 08 руб</strong>
+								</div>
+								<div class="modal-cart_btn">
+									<a href="#" class="bt">Продолжить покупки</a>
+									<a href="#" class="bt-2">Оформить заказ</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="bottom">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-2">
+					<a href="/" class="logo">Берег</a>
+				</div>
+				<div class="col-lg-7">
+					<nav>
+						<li>
+							<a href="#">О компании</a>
+						</li>
+						<li>
+							<a href="#">Контакты</a>
+						</li>
+						<li>
+							<a href="#">Доставка и оплата</a>
+						</li>
+					</nav>
+				</div>
+				<div class="col-lg-3">
+					<div class="login">
+						<a href="#" class="registr">Зарегистрироваться</a>
+						<a href="#" class="enter">Войти</a>
+					</div>
+					<!-- <div class="login logged">
+						<p>
+							1294444@gmail.com
+							<i class="icon icon-arrow-d"></i>
+						</p>
+						<a href="#" class="exit">Выйти</a>
+					</div> -->
+				</div>
+			</div>
+		</div>
+	</div>
+</header>
+
+<section>
+	<div class="container-fluide">
+		<div class="search_wrap">
+			<form action="#" method="GET">
+				<input type="text" value="Что будем искать?" />
+				<button type="submit">
+					<i class="icon icon-search"></i>
+				</button>
+			</form>
+		</div>
+	</div>
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12">
+				<div class="breadcrumb">
+					<ul>
+						<li>
+							<a href="#">Главная /</a>
+						</li>
+						<li>
+							<a href="#">Каталог /</a>
+						</li>
+						<li>
+							<a href="#">Баки расширительные и принадлежности /</a>
+						</li>
+						<li>Баки на отопление Flamco</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container" style="margin-top: 40px;">
+		<div class="row">
+			<div class="col-lg-4">
+				<div class="all_category">
+					<a href="#">Категории</a>
+					<i class="icon icon-sandwich"></i>
+				</div>
+				<ul class="category_menu">
+					<li>
+						<a href="#">Баки расширительные и принадлежности</a>
+						<i class="icon icon-arrow"></i>
+					</li>
+					<li>
+						<a href="#">Вентиляционное оборудование</a>
+						<i class="icon icon-arrow"></i>
+					</li>
+					<li>
+						<a href="#">Водонагреватели</a>
+						<i class="icon icon-arrow"></i>
+					</li>
+					<li>
+						<a href="#">Водоподготовка, водоочистка</a>
+						<i class="icon icon-arrow"></i>
+					</li>
+					<li>
+						<a href="#">Водосточные системы</a>
+						<i class="icon icon-arrow"></i>
+						<ul class="category_menu-sub_menu" style="display: block;">
+							<li>
+								<a href="#">List Option 1</a>
+							</li>
+							<li>
+								<a href="#">List Option 2</a>
+							</li>
+							<li>
+								<a href="#">List Option 3</a>
+							</li>
+							<li>
+								<a href="#">List Option 4</a>
+							</li>
+						</ul>
+					</li>
+					<li>
+						<a href="#">Показать все категории</a>
+						<i class="icon icon-expand"></i>
+					</li>
+				</ul>
+			</div>
+			<div class="col-lg-4">
+				<select name="#">
+					<option value="0">Dropdown</option>
+					<option value="1">List Option 1</option>
+					<option value="2">List Option 2</option>
+					<option value="3">List Option 3</option>
+				</select>
+			</div>
+		</div>
+		<div class="row" style="margin-top: 40px;">
+			<div class="col-lg-12">
+				<input type="radio" name="radio" disabled />
+				<input type="radio" name="radio" />
+				<input type="radio" name="radio" />
+			</div>
+			<div class="col-lg-12">
+				<input type="checkbox" disabled />
+				<input type="checkbox" />
+				<input type="checkbox" />
+			</div>
+		</div>
+	</div>
+</section>
+
+<div class="container">
+	<div class="row">
+		<div class="col-lg-12">
+			<div class="pagination">
+				<ul class="clearfix">
+					<li class="prev">
+						<a href="#">
+							<i class="icon icon-pagination-l"></i>
+							<span>Пред</span>
+						</a>
+					</li>
+					<li>
+						<a href="#">1</a>
+					</li>
+					<li class="active">
+						<a href="#">2</a>
+					</li>
+					<li>
+						<a href="#">3</a>
+					</li>
+					<li>
+						<a href="#">4</a>
+					</li>
+					<li>
+						<a href="#">5</a>
+					</li>
+					<li class="next">
+						<a href="#">
+							<span>След</span>
+							<i class="icon icon-pagination-r"></i>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</div>
+
+	<script src="libs/jquery/jquery-3.2.1.min.js"></script>
+	<script src="libs/jq_form_styler/jquery_formstyler.min.js"></script>
+	<script src="libs/slick-1.8.0/slick.min.js"></script>
+	<script src="libs/custom_scrollbar/custom_scrollbar.min.js"></script>
+	<script src="assets/js/main_script.js"></script>
+	<script src="assets/js/cart.js"></script>
+</body>
+</html>

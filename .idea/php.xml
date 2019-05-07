@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PhpIncludePathManager">
+    <include_path>
+      <path value="$PROJECT_DIR$/system/vendor/sasedev/composer-plugin-filecopier" />
+      <path value="$PROJECT_DIR$/system/vendor/composer" />
+      <path value="$PROJECT_DIR$/system/vendor/burdapraha/oc_svg" />
+    </include_path>
+  </component>
+</project>

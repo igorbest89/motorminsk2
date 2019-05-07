@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="utf-8" />
+	<title>Login</title>
+	<meta name="description" content="" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="shortcut icon" href="img/favicon.png" />
+
+	<link rel="stylesheet" href="libs/bootstrap/bootstrap-grid-3.3.1.min.css" />
+	<link rel="stylesheet" href="assets/css/reset.css" />
+	<link rel="stylesheet" href="libs/jq_form_styler/jquery_formstyler.css" />
+	<link rel="stylesheet" href="libs/slick-1.8.0/slick.css" />
+	<link rel="stylesheet" href="libs/custom_scrollbar/custom_scrollbar.css" />
+
+	<link rel="stylesheet" href="assets/css/fonts.css" />
+	<link rel="stylesheet" href="assets/css/main_style.css" />
+	<link rel="stylesheet" href="assets/css/media_style.css" />
+</head>
+<body>
+
+<section class="login">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-4">
+				<div class="logo">Берег</div>
+			</div>
+			<div class="col-lg-8">
+				<div class="login-link">
+					<span>У вас нет аккаунта?</span>
+					<a href="#" class="registr">Зарегистрироваться</a>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-lg-5"></div>
+			<div class="col-lg-5">
+				<div class="form-wrap">
+					<h2>Вход</h2>
+					<p class="info success">Пароль был отпрален на exemple@gmail.com Проверьте пожалуйста Вшу почту</p>
+					<form action="#">
+						<label>
+							<span>E-mail</span>
+							<input type="text" value="Введите ваш E-mail" />
+						</label>
+						<label>
+							<span>Пароль</span>
+							<a href="#">Забыли пароль?</a>
+							<input type="password" placeholder="Введите ваш пароль" />
+							<i class="icon icon-visible"></i>
+						</label>
+						<button class="btn-accent" type="submit">Войти</button>
+					</form>
+				</div>
+			</div>
+			<div class="col-lg-2"></div>
+		</div>
+		<div class="row">
+			<div class="col-lg-4"></div>
+			<div class="col-lg-8">
+				<div class="login_social-wrap">
+					<div class="login_social">
+						<div class="top">Или</div>
+						<span>Войти с помощью</span>
+						<a href="#">
+							<i class="icon icon-fb-2"></i>
+						</a>
+						<a href="#">
+							<i class="icon icon-vk-2"></i>
+						</a>
+						<a href="#">
+							<i class="icon icon-tw-2"></i>
+						</a>
+					</div>
+					<p>Нажимая «Войти» вы даете согласие на обработку персональных данных</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section class="login">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-4">
+				<div class="logo">Берег</div>
+			</div>
+			<div class="col-lg-8">
+				<div class="login-link">
+					<span>У вас есть аккаунт?</span>
+					<a href="#" class="registr">Войти</a>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-lg-5"></div>
+			<div class="col-lg-5">
+				<div class="form-wrap">
+					<h2>Регистрация</h2>
+					<form action="#">
+						<label>
+							<span>E-mail</span>
+							<input type="text" value="Введите ваш E-mail" />
+						</label>
+						<label>
+							<span>Пароль</span>
+							<input type="password" placeholder="не менее 5 символов" />
+							<i class="icon icon-visible"></i>
+						</label>
+						<button class="btn-accent" type="submit">Зарегистрироваться</button>
+					</form>
+				</div>
+			</div>
+			<div class="col-lg-2"></div>
+		</div>
+		<div class="row">
+			<div class="col-lg-4"></div>
+			<div class="col-lg-8">
+				<div class="login_social-wrap">
+					<div class="login_social">
+						<div class="top">Или</div>
+						<span class="reg">Зарегистрироваться через</span>
+						<a href="#">
+							<i class="icon icon-fb-2"></i>
+						</a>
+						<a href="#">
+							<i class="icon icon-vk-2"></i>
+						</a>
+						<a href="#">
+							<i class="icon icon-tw-2"></i>
+						</a>
+					</div>
+					<p>Нажимая «Зарегистрироваться» вы даете согласие на обработку персональных данных</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section class="login">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-4">
+				<div class="logo">Берег</div>
+			</div>
+			<div class="col-lg-8">
+				<div class="login-link">
+					<span>У вас нет аккаунта?</span>
+					<a href="#" class="registr">Зарегистрироваться</a>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-lg-5"></div>
+			<div class="col-lg-5">
+				<div class="form-wrap">
+					<h2>Забыли пароль?</h2>
+						<!-- <p class="info">Для восстановления пароля укажите E-mail, на который будет отправлен Ваш пароль</p> -->
+						<p class="info error">Указанный E-mail, не зарегистрирован в системе</p>
+					<form action="#">
+						<label>
+							<span>E-mail</span>
+							<input type="text" value="Введите ваш E-mail" />
+						</label>
+						<button class="btn-accent" type="submit">Отправить</button>
+						<a href="#" class="back">Вернуться во Вход в аккаунт</a>
+					</form>
+				</div>
+			</div>
+			<div class="col-lg-2"></div>
+		</div>
+	</div>
+</section>
+
+	<script src="libs/jquery/jquery-3.2.1.min.js"></script>
+	<script src="libs/jq_form_styler/jquery_formstyler.min.js"></script>
+	<script src="libs/slick-1.8.0/slick.min.js"></script>
+	<script src="libs/custom_scrollbar/custom_scrollbar.min.js"></script>
+	<script src="assets/js/main_script.js"></script>
+</body>
+</html>

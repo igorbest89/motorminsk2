@@ -1,0 +1,12 @@
+.breadcrumb {
+	padding: 20px 0;
+	li {
+		display: inline-block;
+		color: #656772;
+		font-size: 11px;
+		line-height: 12px;
+		a {
+			color: $color-accent;
+		}
+	}
+}

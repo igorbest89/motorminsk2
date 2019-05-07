@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<modification>
+    <id>SVG allow upload, logo</id>
+    <version>0.2</version>
+    <vqmver required="true">2.6.0</vqmver>
+    <author>Michal Landsman</author>
+
+    <file path="admin/controller/common/filemanager.php">
+        <operation info="add svg">
+            <search position="replace"><![CDATA[jpg,jpeg,png,gif,JPG,JPEG,PNG,GIF]]></search>
+            <add><![CDATA[jpg,jpeg,png,gif,JPG,JPEG,PNG,GIF,svg,SVG]]></add>
+        </operation>
+        <operation info="add svg">
+            <search position="replace"><![CDATA['jpg',]]></search>
+            <add><![CDATA['jpg','svg',]]></add>
+        </operation>
+        <operation info="add svg">
+            <search position="replace"><![CDATA['image/jpeg',]]></search>
+            <add><![CDATA['image/jpeg','image/svg+xml',]]></add>
+        </operation>
+    </file>
+
+    <file path="admin/model/tool/image.php">
+        <operation info="add svg render support">
+            <search position="after">
+                <![CDATA[$extension = pathinfo($filename, PATHINFO_EXTENSION);]]>
+            </search>
+            <add>
+                <![CDATA[
+
+                if('svg' == $extension) {
+
+                    if ($this->request->server['HTTPS']) {
+                        return $this->config->get('config_ssl') . 'image/' . $filename;
+                    } else {
+                        return $this->config->get('config_url') . 'image/' . $filename;
+                    }
+                }
+
+                ]]>
+            </add>
+        </operation>
+    </file>
+
+    <file path="system/helper/general.php">
+        <operation info="add svg render support">
+            <search position="before">
+                <![CDATA[function token($length = 32) {]]>
+            </search>
+            <add>
+                <![CDATA[
+
+                    /**
+                     * @param $path
+                     * @return string
+                     */
+                    function renderSVG($path)
+                    {
+                        $fullPath   = DIR_IMAGE . $path;
+                        $handle     = fopen($fullPath, "r");
+                        $contents   = fread($handle, filesize($fullPath));
+                        fclose($handle);
+
+
+                        return $contents;
+                    }
+
+
+                    /**
+                     * Merge data about logo
+                     * @param $base
+                     * @param $config_logo
+                     * @param string $name
+                     * @return array
+                     */
+                    function renderLogoData($base, $config_logo, $name = "")
+                    {
+                        $array              = array();
+                        $array['logo']      = '';
+                        $array['logo_svg']  = false;
+                        $array['name']      = $name;
+                        $image              = $config_logo;
+
+                        if (is_file(DIR_IMAGE . $image))
+                        {
+                            if (strpos($image, '.svg') !== false)
+                            {
+                                $array['logo']      = renderSVG($image);
+                                $array['logo_svg']  = true;
+
+                            }
+                            else
+                            {
+                                $array['logo'] = $base . 'image/' . $image;
+                            }
+
+                        }
+
+
+                        return $array;
+                    }
+
+                    /**
+                     * @param $logo
+                     * @param $logo_svg
+                     * @param string $name
+                     * @return string
+                     */
+                    function renderLogo($logo, $logo_svg, $name = '')
+                    {
+                        return (true == $logo_svg ? $logo : "<img src='{$logo}' title='{$name}' alt={$name}' class='img-responsive' />");
+                    }
+
+                ]]>
+            </add>
+        </operation>
+    </file>
+
+    <file path="catalog/controller/common/header.php">
+        <operation info="return svg data">
+            <search position="replace">
+                <![CDATA[$data['logo'] = $server . 'image/' . $this->config->get('config_logo');]]>
+            </search>
+            <add>
+                <![CDATA[
+                    $config_logo   = $this->config->get('config_logo');
+                    $logo_data     = renderLogoData($server, $config_logo, $data['name']);
+                    $data          = array_merge($data, $logo_data);
+                ]]>
+            </add>
+        </operation>
+        <operation info="return svg data">
+            <search position="after">
+                <![CDATA[$data['logo'] = '';]]>
+            </search>
+            <add>
+                <![CDATA[
+                    $data['logo_svg'] = false;
+                ]]>
+            </add>
+        </operation>
+    </file>
+
+    <file path="catalog/view/theme/*/template/common/header.tpl">
+        <operation info="return svg data">
+            <search position="replace">
+                <![CDATA[<img src="<?php echo $logo; ?>" title="<?php echo $name; ?>" alt="<?php echo $name; ?>" class="img-responsive" />]]>
+            </search>
+            <add>
+                <![CDATA[<?php echo renderLogo($logo, $logo_svg, $name); ?>]]>
+            </add>
+        </operation>
+    </file>
+
+    <file path="catalog/controller/common/footer.php">
+        <operation info="support for custom logo in footer">
+            <search position="before">
+                <![CDATA[return $this->load->view('common/footer', $data);]]>
+            </search>
+            <add>
+                <![CDATA[
+                    if ($this->request->server['HTTPS']) {
+                        $server = $this->config->get('config_ssl');
+                    } else {
+                        $server = $this->config->get('config_url');
+                    }
+                    $config_logo   = $this->config->get('config_logo');
+                    $have_https    = $this->request->server['HTTPS'];
+                    $logo_data     = renderLogoData($server, $config_logo);
+                    $data          = array_merge($data, $logo_data);
+                ]]>
+            </add>
+        </operation>
+    </file>
+
+    <file path="catalog/view/theme/*/template/common/footer.tpl">
+        <operation info="return svg data" error="skip">
+            <search position="replace">
+                <![CDATA[<img src="<?php echo $logo; ?>" title="<?php echo $name; ?>" alt="<?php echo $name; ?>" class="img-responsive" />]]>
+            </search>
+            <add>
+                <![CDATA[<?php echo renderLogo($logo, $logo_svg, $name); ?>]]>
+            </add>
+        </operation>
+    </file>
+
+    <file name="admin/controller/sale/order.php">
+        <operation info="support for plugin: Free 9 Invoice Layout Template">
+            <search position="before" index="2"><![CDATA[
+			if ($order_info['invoice_no']) {
+			]]></search>
+            <add><![CDATA[
+                    if ($this->request->server['HTTPS']) {
+                        $server = isset($store_info['config_ssl']) && !empty($store_info['config_url']) ? $store_info['config_ssl'] : $this->config->get('config_ssl');
+                    } else {
+                        $server = isset($store_info['config_url']) && !empty($store_info['config_url']) ? $store_info['config_url'] : $this->config->get('config_url');
+                    }
+
+                    $config_logo   = isset($store_info['config_logo']) ? $store_info['config_logo'] : $this->config->get('config_logo');
+                    $logo_data     = renderLogoData($server, $config_logo);
+                    $data          = array_merge($data, $logo_data);
+			]]></add>
+        </operation>
+    </file>
+
+    <file path="admin/view/template/sale/order_invoice.tpl">
+        <operation info="support for plugin: Free 9 Invoice Layout Template">
+            <search position="replace">
+                <![CDATA[<img src="<?php echo $logo; ?>" title="<?php echo $name; ?>" alt="<?php echo $name; ?>" class="img-responsive" />]]>
+            </search>
+            <add>
+                <![CDATA[
+                    <?php echo renderLogo($logo, $logo_svg, $name); ?>
+                ]]>
+            </add>
+        </operation>
+    </file>
+
+</modification>

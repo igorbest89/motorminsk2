@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="13px" height="13px" viewBox="0 0 13 13" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>💚 Icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M6.16666667,10.3333333 C8.46785312,10.3333333 10.3333333,8.46785312 10.3333333,6.16666667 C10.3333333,3.86548021 8.46785312,2 6.16666667,2 C3.86548021,2 2,3.86548021 2,6.16666667 C2,8.46785312 3.86548021,10.3333333 6.16666667,10.3333333 Z M10.8386539,9.66014258 L12.5892557,11.4107443 C12.9146926,11.7361813 12.9146926,12.2638187 12.5892557,12.5892557 C12.2638187,12.9146926 11.7361813,12.9146926 11.4107443,12.5892557 L9.66014258,10.8386539 C8.68632547,11.567997 7.47694592,12 6.16666667,12 C2.94500563,12 0.333333333,9.38832771 0.333333333,6.16666667 C0.333333333,2.94500563 2.94500563,0.333333333 6.16666667,0.333333333 C9.38832771,0.333333333 12,2.94500563 12,6.16666667 C12,7.47694592 11.567997,8.68632547 10.8386539,9.66014258 Z" id="path-1"></path>
+        <rect id="path-3" x="0" y="0" width="20" height="20"></rect>
+    </defs>
+    <g id="Drop-Down-Каталог" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Drop-Down-Menu" transform="translate(-272.000000, -506.000000)">
+            <g transform="translate(33.000000, 432.000000)" id="List-/-Search-bar">
+                <g transform="translate(0.000000, 63.000000)">
+                    <g id="💚-Icon" transform="translate(239.000000, 11.000000)">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <use id="Mask" fill-opacity="0" fill="#051033" fill-rule="nonzero" xlink:href="#path-1"></use>
+                        <g id="Color-/-Black-/-Black-800" mask="url(#mask-2)">
+                            <g transform="translate(-3.000000, -3.000000)">
+                                <mask id="mask-4" fill="white">
+                                    <use xlink:href="#path-3"></use>
+                                </mask>
+                                <g id="Background" stroke="none" fill="none"></g>
+                                <polygon id="Black-/-Black-800" stroke="none" fill="#182C4F" fill-rule="evenodd" mask="url(#mask-4)" points="0 0 20 0 20 20 0 20"></polygon>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

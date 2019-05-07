@@ -1,0 +1,177 @@
+.login {
+	padding: 32px 0 96px;
+	.login-link {
+		text-align: right;
+		span, a {
+			vertical-align: middle;
+			font-size: 14px;
+			font-weight: 400;
+			color: #8A94A6;
+		}
+		span {
+			margin-right: 32px;
+		}
+		a.registr {
+			display: inline-block;
+			padding: 12px 25px;
+			border: 1px solid #8A94A6;
+			letter-spacing: 1.7px;
+			border-radius: 10px;
+			color: #656772;
+			@extend %transition;
+			&:hover {
+				background-color: $color-accent;
+				color: #F2F2F2;
+			}
+		}
+	}
+	.form-wrap {
+		padding-top: 78px;
+		max-width: 368px;
+		.info {
+			margin-top: -34px;
+			font-size: 12px;
+			font-weight: 500;
+			line-height: 18px;
+			letter-spacing: 0.1px;
+			color: #0A1F44;
+			&.error {
+				color: #D83448;
+			}
+			&.success {
+				color: #14B876;
+				font-size: 13px;
+			}
+		}
+		h2 {
+			margin-bottom: 40px;
+			font-size: 26px;
+			line-height: 32px;
+			letter-spacing: -0.3px;
+		}
+		label {
+			position: relative;
+			display: block;
+			margin-top: 32px;
+			i {
+				position: absolute;
+				bottom: 17px;
+				right: 15px;
+			}
+		}
+		span {
+			display: inline-block;
+			margin-bottom: 8px;
+		}
+		a {
+			float: right;
+			color: #8A94A6;
+		}
+		input,
+		button {
+			width: 100%;
+		}
+		input {
+			&:focus {
+				color: #0A1F44;
+				font-weight: 500;
+			}
+		}
+		.btn-accent {
+			padding: 18px 20px;
+			margin-top: 56px;
+			height: 62px;
+			letter-spacing: 1.5px;
+			line-height: 22px;
+		}
+		.back {
+			display: block;
+			float: none;
+			margin-top: 26px;
+			text-align: center;
+			color: #A6AEBC;
+			font-size: 12px;
+			font-weight: 500;
+			text-decoration: underline;
+			letter-spacing: 0.1px;
+		}
+	}
+	.login_social-wrap {
+		max-width: 554px;
+		padding-top: 72px;
+		p {
+			margin: 28px auto 0;
+			width: 320px;
+			color: #A6AEBC;
+			font-size: 12px;
+			font-weight: 400;
+			letter-spacing: 0.1px;
+			line-height: 15px;
+			text-align: center;
+		}
+	}
+	.login_social {
+		position: relative;
+		padding: 16px 0;
+		border-top: 1px solid #EDEDED;
+		border-bottom: 1px solid #EDEDED;
+		.top {
+			position: absolute;
+			top: -10px;
+			left: 50%;
+			width: 80px;
+			height: 20px;
+			margin-left: -40px;
+			font-size: 14px;
+			font-weight: 500;
+			line-height: 20px;
+			text-align: center;
+			text-transform: uppercase;
+			background-color: #fff;
+			color: #53627C;
+		}
+		span {
+			margin: 0 70px;
+			color: #8A94A6;
+			font-size: 13px;
+			&.reg {
+				margin: 0 42px;
+			}
+		}
+		a {
+			display: inline-block;
+			margin-right: 46px;
+			height: 50px;
+			width: 50px;
+			padding-top: 16px;
+			border-radius: 50%;
+			background-color: #FFF;
+			text-align: center;
+			box-shadow: 0 2px 4px 0 rgba(100,146,188,0.15);
+			&:hover {
+				box-shadow: 0 2px 4px 0 #A6AEBC;
+				.icon-fb-2 {
+					background-image: url(../../img/icons/fb-2-hover.svg);
+				}
+				.icon-vk-2 {
+					background-image: url(../../img/icons/vk-2-hover.svg);
+				}
+				.icon-tw-2 {
+					background-image: url(../../img/icons/tw-2-hover.svg);
+				}
+			}
+			&:active {
+				box-shadow: 0 2px 4px 0 rgba(100,146,188,0.15);
+				.icon-fb-2 {
+					background-image: url(../../img/icons/fb-2-click.png);
+				}
+				.icon-vk-2 {
+					background-image: url(../../img/icons/vk-2-click.png);
+				}
+				.icon-tw-2 {
+					background-image: url(../../img/icons/tw-2-click.png);
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="26px" height="36px" viewBox="0 0 26 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>Open menu</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Main" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Main-Copy-5" transform="translate(-314.000000, -1520.000000)">
+            <g id="Menu" transform="translate(32.000000, 580.000000)">
+                <g id="Open-menu" transform="translate(276.000000, 936.000000)">
+                    <g id="playlist-2" transform="translate(14.000000, 12.000000) scale(-1, -1) translate(-14.000000, -12.000000) translate(2.000000, 0.000000)">
+                        <rect id="bound" x="0" y="0" width="24" height="24"></rect>
+                        <path d="M11.5,5 L18.5,5 C19.3284271,5 20,5.67157288 20,6.5 C20,7.32842712 19.3284271,8 18.5,8 L11.5,8 C10.6715729,8 10,7.32842712 10,6.5 C10,5.67157288 10.6715729,5 11.5,5 Z M5.5,17 L18.5,17 C19.3284271,17 20,17.6715729 20,18.5 C20,19.3284271 19.3284271,20 18.5,20 L5.5,20 C4.67157288,20 4,19.3284271 4,18.5 C4,17.6715729 4.67157288,17 5.5,17 Z M5.5,11 L18.5,11 C19.3284271,11 20,11.6715729 20,12.5 C20,13.3284271 19.3284271,14 18.5,14 L5.5,14 C4.67157288,14 4,13.3284271 4,12.5 C4,11.6715729 4.67157288,11 5.5,11 Z" id="Combined-Shape" fill="#0096EA" fill-rule="nonzero"></path>
+                    </g>
+                    <g id="arrow-down" transform="translate(0.000000, 8.000000)">
+                        <polygon id="Shape" points="0 0 40 0 40 40 0 40"></polygon>
+                        <rect id="Rectangle" fill="#0096EA" fill-rule="nonzero" opacity="0.3" x="18.3333333" y="8.33333333" width="3.33333333" height="23.3333333" rx="1"></rect>
+                        <path d="M11.1785113,31.1785101 C10.5276375,31.8293839 9.47236252,31.8293839 8.8214887,31.1785101 C8.17061488,30.5276363 8.17061488,29.4723613 8.8214887,28.8214874 L18.8214887,18.8214874 C19.4524537,18.1905226 20.468431,18.1684466 21.1262077,18.7714086 L31.1262077,27.9380753 C31.8047393,28.5600626 31.8505775,29.6143414 31.2285902,30.2928731 C30.6066028,30.9714048 29.552324,31.0172429 28.8737923,30.3952556 L20.0501262,22.3068951 L11.1785113,31.1785101 Z" id="Path-94" fill="#0096EA" fill-rule="nonzero" transform="translate(20.000005, 24.999998) scale(-1, 1) rotate(-180.000000) translate(-20.000005, -24.999998) "></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

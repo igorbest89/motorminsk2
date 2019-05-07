@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>phone-2</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="Header-Main" transform="translate(-214.000000, -17.000000)" stroke="#0096EA">
+            <g id="Header">
+                <g id="Инфо-Меню">
+                    <g id="Телефоны" transform="translate(215.000000, 16.000000)">
+                        <g id="Безнал" transform="translate(0.000000, 2.000000)">
+                            <g id="phone-2">
+                                <path d="M3.70710678,5 L9,10.2928932 L11,8.29289322 L14.7071068,12 L12.2071068,14.5 L12,14.5 C5.09685763,14.5 -0.5,8.90314237 -0.5,2 L-0.5,1.79289322 L2,-0.707106781 L5.70710678,3 L3.70710678,5 Z" id="Shape"></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

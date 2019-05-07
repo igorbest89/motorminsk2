@@ -1,0 +1,284 @@
+/*---------------icons---------------*/
+.icon {
+	display: inline-block;
+	vertical-align: middle;
+	width: 16px;
+	height: 16px;
+	background: no-repeat 50% 50%;
+		-webkit-background-size: cover;
+		        background-size: cover;
+	&.icon-cart {
+		background-image: url(../../img/icons/cart.svg);
+	}
+	&.icon-clock {
+		background-image: url(../../img/icons/clock.png);
+	}
+	&.icon-phone {
+		width: 17px;
+		background-image: url(../../img/icons/phone.png);
+	}
+	&.icon-delivery {
+		width: 60px;
+		height: 48px;
+		background-image: url(../../img/icons/delivery.png);
+	}
+	&.icon-warranty {
+		width: 46px;
+		height: 66px;
+		background-image: url(../../img/icons/warranty.png);
+	}
+	&.icon-refund {
+		width: 46px;
+		height: 47px;
+		background-image: url(../../img/icons/refund.png);
+	}
+	&.icon-testing {
+		width: 60px;
+		height: 60px;
+		background-image: url(../../img/icons/testing.png);
+	}
+	&.icon-confirmation {
+		width: 41px;
+		height: 69px;
+		background-image: url(../../img/icons/confirmation.png);
+	}
+	&.icon-arrow {
+		width: 7px;
+		height: 10px;
+		background-image: url(../../img/icons/arrow.svg);
+	}
+	&.icon-fb {
+		width: 11px;
+		height: 22px;
+		background-image: url(../../img/icons/fb.png);
+	}
+	&.icon-inst {
+		width: 20px;
+		height: 20px;
+		background-image: url(../../img/icons/inst.png);
+	}
+	&.icon-ytube {
+		width: 22px;
+		background-image: url(../../img/icons/ytube.png);
+	}
+	&.icon-visa {
+		width: 40px;
+		height: 25px;
+		background-image: url(../../img/icons/visa.svg);
+	}
+	&.icon-mc {
+		width: 40px;
+		height: 25px;
+		background-image: url(../../img/icons/mc.svg);
+	}
+	&.icon-search {
+		background-image: url(../../img/icons/search.svg);
+	}
+	&.icon-search-2 {
+		width: 14px;
+		height: 13px;
+		background-image: url(../../img/icons/search-2.png);
+	}
+	&.icon-listing_string {
+		width: 20px;
+		height: 17px;
+		background-image: url(../../img/icons/listing_string.png);
+		&.active {
+			background-image: url(../../img/icons/listing_string_active.png);
+		}
+	}
+	&.icon-listing_card {
+		width: 18px;
+		height: 17px;
+		background-image: url(../../img/icons/listing_card.png);
+		&.active {
+			background-image: url(../../img/icons/listing_card_active.png);
+		}
+	}
+	&.icon-pagination-r {
+		width: 9px;
+		height: 17px;
+		background-image: url(../../img/icons/pagination-arr.png);
+	}
+	&.icon-pagination-l {
+		width: 9px;
+		height: 17px;
+		background-image: url(../../img/icons/pagination-arr.png);
+		transform: rotate(180deg);
+	}
+	&.icon-info {
+		width: 17px;
+		height: 18px;
+		background-image: url(../../img/icons/info.png);
+	}
+	&.icon-info-2 {
+		width: 17px;
+		height: 18px;
+		background-image: url(../../img/icons/info-2.png);
+	}
+	&.icon-info_close {
+		width: 8px;
+		height: 8px;
+		background-image: url(../../img/icons/info_close.png);
+	}
+	&.icon-done-cart {
+		width: 120px;
+		height: 120px;
+		background-image: url(../../img/icons/done-cart.png);
+	}
+	&.icon-contact-time {
+		background-image: url(../../img/icons/contact-time.svg);
+	}
+	&.icon-contact-phone {
+		background-image: url(../../img/icons/contact-phone.svg);
+	}
+	&.icon-contact-fax {
+		width: 18px;
+		background-image: url(../../img/icons/contact-fax.svg);
+	}
+	&.icon-contact-marker {
+		height: 20px;
+		background-image: url(../../img/icons/contact-marker.svg);
+	}
+	&.icon-contact-mail {
+		height: 12px;
+		background-image: url(../../img/icons/contact-mail.png);
+	}
+	&.icon-contact-pos {
+		background-image: url(../../img/icons/contact-pos.svg);
+	}
+	&.icon-contact-send {
+		width: 23px;
+		height: 19px;
+		background-image: url(../../img/icons/contact-send.svg);
+	}
+	&.icon-contact-sms {
+		width: 19px;
+		height: 21px;
+		background-image: url(../../img/icons/contact-sms.svg);
+	}
+	&.icon-close {
+		width: 10px;
+		height: 10px;
+		background-image: url(../../img/icons/close.png);
+	}
+	&.icon-cart-back {
+		width: 8px;
+		height: 11px;
+		background-image: url(../../img/icons/cart-back.png);
+	}
+	&.icon-cart-next {
+		width: 8px;
+		height: 11px;
+		background-image: url(../../img/icons/cart-next.png);
+	}
+	&.icon-done-2 {
+		width: 20px;
+		height: 20px;
+		background-image: url(../../img/icons/done-2.png);
+	}
+
+
+
+	&.icon-arrow-b {
+		width: 9px;
+		background-image: url(../../img/icons/arrow-b.svg);
+	}
+	&.icon-back {
+		width: 9px;
+		background-image: url(../../img/icons/back.svg);
+	}
+	&.icon-arrow-d {
+		width: 10px;
+		height: 4px;
+		background-image: url(../../img/icons/arrow-d.svg);
+	}
+	&.icon-sandwich {
+		width: 18px;
+		height: 14px;
+		background-image: url(../../img/icons/sandwich.svg);
+	}
+	&.icon-cart_white {
+		width: 15px;
+		background-image: url(../../img/icons/cart_white.svg);
+	}
+	&.icon-expand {
+		width: 26px;
+		height: 36px;
+		background-image: url(../../img/icons/expand.svg);
+	}
+	&.icon-tw {
+		width: 18px;
+		height: 15px;
+		background-image: url(../../img/icons/tw.svg);
+	}
+	&.icon-tw-2 {
+		width: 23px;
+		height: 19px;
+		background-image: url(../../img/icons/tw-2.svg);
+	}
+	&.icon-fb-2 {
+		width: 12px;
+		height: 21px;
+		background-image: url(../../img/icons/fb-2.svg);
+	}
+	&.icon-vk-2 {
+		width: 24px;
+		height: 14px;
+		background-image: url(../../img/icons/vk-2.svg);
+	}
+	&.icon-gplus {
+		width: 25px;
+		background-image: url(../../img/icons/gplus.svg);
+	}
+	&.icon-add_to_cart {
+		width: 15px;
+		background-image: url(../../img/icons/add_to_cart.svg);
+	}
+	&.icon-download {
+		width: 26px;
+		height: 17px;
+		background-image: url(../../img/icons/download.svg);
+	}
+	&.icon-plus {
+		width: 14px;
+		height: 14px;
+		background-image: url(../../img/icons/plus.svg);
+	}
+	&.icon-done {
+		width: 60px;
+		height: 60px;
+		background-image: url(../../img/icons/done.svg);
+	}
+	&.icon-visible {
+		width: 18px;
+		height: 14px;
+		background-image: url(../../img/icons/visible.svg);
+		&:hover,
+		&.icon-visible-2 {
+			background-image: url(../../img/icons/visible_hover.svg);
+			cursor: pointer;
+		}
+	}
+	&.icon-delete {
+		background-image: url(../../img/icons/delete.svg);
+	}
+	&.icon-remove_prod {
+		width: 14px;
+		height: 14px;
+		background-image: url(../../img/icons/remove_prod.svg);
+	}
+	&.icon-delete {
+		background-image: url(../../img/icons/delete.svg);
+	}
+	&.icon-inp_warning {
+		width: 14px;
+		height: 13px;
+		background-image: url(../../img/icons/input_warning.svg);
+	}
+	&.icon-inp_error {
+		width: 13px;
+		height: 13px;
+		background-image: url(../../img/icons/input_error.svg);
+	}
+}

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="8px" height="4px" viewBox="0 0 8 4" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>Icon</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Листинги" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Листинг-строчный" transform="translate(-635.000000, -458.000000)" fill="#86939E">
+            <g id="Фильтр-и-сортировка" transform="translate(389.000000, 432.000000)">
+                <g id="Сортировка" transform="translate(8.015559, 8.689655)">
+                    <g id="Dropdown-#1" transform="translate(135.320434, 0.000000)">
+                        <path d="M105.414638,15.2946694 L108.108987,18.5989724 C108.290852,18.8218708 108.290852,19.2378743 108.108987,19.4613244 L105.414638,22.764524 C105.171643,23.0624575 104.806767,22.8036967 104.806767,22.3336239 L104.806767,15.7261212 C104.806767,15.2560484 105.171643,14.9967359 105.414638,15.2946694" id="Icon" transform="translate(106.526077, 19.029654) rotate(-270.000000) translate(-106.526077, -19.029654) "></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

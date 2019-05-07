@@ -1,0 +1,776 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="utf-8" />
+	<title>Motor-Minsk</title>
+	<meta name="description" content="" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="shortcut icon" href="img/favicon.png" />
+
+	<link rel="stylesheet" href="libs/bootstrap/bootstrap-grid-3.3.1.min.css" />
+	<link rel="stylesheet" href="assets/css/reset.css" />
+	<link rel="stylesheet" href="libs/jq_form_styler/jquery_formstyler.css" />
+	<link rel="stylesheet" href="libs/slick-1.8.0/slick.css" />
+	<link rel="stylesheet" href="libs/custom_scrollbar/custom_scrollbar.css" />
+
+	<link rel="stylesheet" href="assets/css/fonts.css" />
+	<link rel="stylesheet" href="assets/css/main_style.css" />
+	<link rel="stylesheet" href="assets/css/media_style.css" />
+</head>
+<body>
+
+<header>
+	<div class="top">		
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-11">
+					<nav>
+						<li>
+							<a href="#">Контакты</a>
+						</li>
+						<li>
+							<a href="#">О компании</a>
+						</li>
+						<li>
+							<a href="#">Доставка</a>
+						</li>
+						<li>
+							<a href="#">Гарантия</a>
+						</li>
+						<li>
+							<a href="#">Возврат</a>
+						</li>
+					</nav>
+				</div>
+				<div class="col-lg-1">
+					<div class="cart">
+						<a href="#">
+							<i class="icon icon-cart"></i>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="bottom">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-2">
+					<a class="logo" href="/">
+						<img src="img/logo.png" alt="logo" />
+					</a>
+				</div>
+				<div class="col-lg-7 center">
+					<div class="tel">
+						<i class="icon icon-phone"></i>
+						<a href="tel:+375 (17) 279-43-79">
+							<span>+375 (29) 307-66-66</span>
+						</a>
+					</div>
+					<div class="time">
+						<i class="icon icon-clock"></i>
+						<span>Пн - Пт 9:00 - 18:00</span>
+					</div>
+				</div>
+				<div class="col-lg-3">
+					<div class="login">
+						<a href="#" class="registr">Зарегистрироваться</a>
+						<a href="#" class="enter">Войти</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</header>
+
+<section class="banner">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-3">
+				<div class="img" href="/">
+					<img src="img/search_logo.png" alt="logo" />
+				</div>
+			</div>
+			<div class="col-lg-9">
+				<h1>Магазин б/у запчастей</h1>
+				<p>В наличии более 60 000 запчастей, 450 моторов, 800 КПП</p>
+				<div class="search_wrap">
+					<form class="clearfix" action="#" method="GET">
+						<input type="text" placeholder="Что будем искать?" />
+						<button type="submit">
+							<i class="icon icon-search"></i>
+						</button>
+						<p>Выбор по машине и категории запчасти</p>
+						<select data-placeholder="Марка" name="#">
+							<option value="0"></option>
+							<option value="All">Все марки</option>
+							<option value="Alfa-Romeo">Alfa-Romeo</option>
+							<option value="Audi">Audi</option>
+							<option value="BMW">BMW</option>
+							<option value="Chevrolet">Chevrolet</option>
+							<option value="Chrysler">Chrysler</option>
+							<option value="Citroen">Citroen</option>
+							<option value="Dacia">Dacia</option>
+							<option value="Daewoo">Daewoo</option>
+							<option value="Dodge">Dodge</option>
+							<option value="Fiat">Fiat</option>
+							<option value="Ford">Ford</option>
+							<option value="Honda">Honda</option>
+						</select>
+						<select data-placeholder="Модель" name="#">
+							<option value="0"></option>
+							<option value="1">Модель 1</option>
+						</select>
+						<select data-placeholder="Поколение" name="#">
+							<option value="0"></option>
+							<option value="1">Поколение 1</option>
+						</select>
+						<select data-placeholder="Запчасть" name="#">
+							<option value="0"></option>
+							<option value="1">Запчасть 1</option>
+						</select>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section class="section-services">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-4">
+				<div class="all_category">
+					<a href="#">Каталог</a>
+				</div>
+				<ul id="mainPgCat" class="category_menu">
+					<li>
+						<a href="#">Двигатели</a>
+						<i class="icon icon-arrow"></i>
+						<ul class="category_menu-sub_menu">
+							<li>
+								<a href="#">Двигатели 1</a>
+							</li>
+							<li>
+								<a href="#">Двигатели 2</a>
+							</li>
+							<li>
+								<a href="#">Двигатели 3</a>
+							</li>
+							<li>
+								<a href="#">Двигатели 4</a>
+							</li>
+						</ul>
+					</li>
+					<li>
+						<a href="#">Запчасти для двигателя</a>
+						<i class="icon icon-arrow"></i>
+					</li>
+					<li>
+						<a href="#">Система охлаждения</a>
+						<i class="icon icon-arrow"></i>
+					</li>
+					<li>
+						<a href="#">Кузовные запчасти</a>
+						<i class="icon icon-arrow"></i>
+					</li>
+					<li>
+						<a href="#">Трансмиссия</a>
+						<i class="icon icon-arrow"></i>
+					</li>
+					<li>
+						<a href="#">Подвеска</a>
+						<i class="icon icon-arrow"></i>
+					</li>
+					<li>
+						<a href="#">Тормозная система</a>
+						<i class="icon icon-arrow"></i>
+					</li>
+					<li>
+						<a href="#">Рулевое управление</a>
+						<i class="icon icon-arrow"></i>
+					</li>
+					<li>
+						<a href="#">Оптика и свет</a>
+						<i class="icon icon-arrow"></i>
+					</li>
+					<li>
+						<a href="#">Электрооборудование</a>
+						<i class="icon icon-arrow"></i>
+					</li>
+					<li>
+						<a href="#">Системы безопасности</a>
+						<i class="icon icon-arrow"></i>
+					</li>
+					<li>
+						<a href="#">Климат контроль</a>
+						<i class="icon icon-arrow"></i>
+					</li>
+					<li>
+						<a href="#">Система омывателя</a>
+						<i class="icon icon-arrow"></i>
+					</li>
+					<li>
+						<a href="#">Топливная система</a>
+						<i class="icon icon-arrow"></i>
+					</li>
+					<li>
+						<a href="#">Мультимедиа</a>
+						<i class="icon icon-arrow"></i>
+					</li>
+					<li>
+						<a href="#">Выхлопная система</a>
+						<i class="icon icon-arrow"></i>
+					</li>
+					<li>
+						<a href="#">Салон</a>
+						<i class="icon icon-arrow"></i>
+					</li>
+					<li>
+						<a href="#">Шины</a>
+						<i class="icon icon-arrow"></i>
+					</li>
+					<li>
+						<a href="#">Диски</a>
+						<i class="icon icon-arrow"></i>
+					</li>
+				</ul>
+			</div>
+			<div class="col-lg-8">
+				<div class="services">
+					<h2>С нами удобно работать</h2>
+					<div class="services-item clearfix">
+						<div class="services-item_icon">
+							<i class="icon icon-delivery"></i>
+						</div>
+						<div class="services-item_text">
+							<h3>Доставка товара</h3>
+							<p>t is well known that life on Earth originated due to the presence of water. In the water, life began</p>
+						</div>
+					</div>
+					<div class="services-item clearfix">
+						<div class="services-item_icon">
+							<i class="icon icon-warranty"></i>
+						</div>
+						<div class="services-item_text">
+							<h3>Гарантия до 60 дней</h3>
+							<p>t is well known that life on Earth originated due to the presence of water. In the water, life began, out of it, gradually repopulating the land and the air.</p>
+						</div>
+					</div>
+					<div class="services-item clearfix">
+						<div class="services-item_icon">
+							<i class="icon icon-refund"></i>
+						</div>
+						<div class="services-item_text">
+							<h3>Заберем обратно если з/ч не подошла</h3>
+							<p>t is well known that life on Earth originated due to the presence of water. </p>
+						</div>
+					</div>
+					<div class="services-item clearfix">
+						<div class="services-item_icon">
+							<i class="icon icon-testing"></i>
+						</div>
+						<div class="services-item_text">
+							<h3>Каждый мотор проходит тестирование</h3>
+							<p>t is well known that life on Earth originated due to the presence of water. In the water, life began, out of it, gradually</p>
+						</div>
+					</div>
+					<div class="services-item clearfix">
+						<div class="services-item_icon">
+							<i class="icon icon-confirmation"></i>
+						</div>
+						<div class="services-item_text">
+							<h3>Видеоподтверждение исправности двигателя</h3>
+							<p>t is well known that life on Earth originated due to the presence of water. In the water, life began, out of it, gradually repopulating the land and the air.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section class="section-pop_cat">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12">
+				<h2>Популярные категории</h2>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-lg-4">
+				<div class="pop_cat-item clearfix">
+					<div class="pop_cat-item_icon">
+						<img src="img/icons/body_parts.png" alt="body parts">
+					</div>
+					<div class="pop_cat-item_text">
+						<h3>Кузовные запчасти</h3>
+						<ul>
+							<li>
+								<a href="#">Бампера</a>
+							</li>
+							<li>
+								<a href="#">Двери</a>
+							</li>
+							<li>
+								<a href="#">Зеркала</a>
+							</li>
+							<li>
+								<a href="#">Капоты</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-4">
+				<div class="pop_cat-item clearfix">
+					<div class="pop_cat-item_icon">
+						<img src="img/icons/engine.png" alt="engine">
+					</div>
+					<div class="pop_cat-item_text">
+						<h3>Двигатели</h3>
+						<ul>
+							<li>
+								<a href="#">Volkswagen</a>
+							</li>
+							<li>
+								<a href="#">Opel</a>
+							</li>
+							<li>
+								<a href="#">Renault</a>
+							</li>
+							<li>
+								<a href="#">Ford</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-4">
+				<div class="pop_cat-item clearfix">
+					<div class="pop_cat-item_icon">
+						<img src="img/icons/transmission.png" alt="transmission">
+					</div>
+					<div class="pop_cat-item_text">
+						<h3>Трансмиссия</h3>
+						<ul>
+							<li>
+								<a href="#">КПП</a>
+							</li>
+							<li>
+								<a href="#">Приводные валы</a>
+							</li>
+							<li>
+								<a href="#">Сцепление</a>
+							</li>
+							<li>
+								<a href="#">Мосты</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-4">
+				<div class="pop_cat-item clearfix">
+					<div class="pop_cat-item_icon">
+						<img src="img/icons/fuel_system.png" alt="fuel system">
+					</div>
+					<div class="pop_cat-item_text">
+						<h3>Топливная система</h3>
+						<ul>
+							<li>
+								<a href="#">Форсунки</a>
+							</li>
+							<li>
+								<a href="#">ТНВД</a>
+							</li>
+							<li>
+								<a href="#">Заслонки</a>
+							</li>
+							<li>
+								<a href="#">Бензонасосы</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-4">
+				<div class="pop_cat-item clearfix">
+					<div class="pop_cat-item_icon">
+						<img src="img/icons/engine_parts.png" alt="engine parts">
+					</div>
+					<div class="pop_cat-item_text">
+						<h3>Запчасти ДВС</h3>
+						<ul>
+							<li>
+								<a href="#">Турбины</a>
+							</li>
+							<li>
+								<a href="#">ГБЦ</a>
+							</li>
+							<li>
+								<a href="#">Блоки цилиндров</a>
+							</li>
+							<li>
+								<a href="#">Расходомеры</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-4">
+				<div class="pop_cat-item clearfix">
+					<div class="pop_cat-item_icon">
+						<img src="img/icons/electric.png" alt="electric">
+					</div>
+					<div class="pop_cat-item_text">
+						<h3>Электрика</h3>
+						<ul>
+							<li>
+								<a href="#">Блоки управления</a>
+							</li>
+							<li>
+								<a href="#">Стартеры</a>
+							</li>
+							<li>
+								<a href="#">Генераторы</a>
+							</li>
+							<li>
+								<a href="#">Датчики коленвала</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-lg-12">
+				<a href="#" class="link_all">Смотреть все категории</a>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section class="section-brand">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12">
+				<h2>Популярные марки</h2>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-lg-4">
+				<div class="pop_cat-item clearfix">
+					<div class="pop_cat-item_icon">
+						<img src="img/icons/volkswagen.png" alt="volkswagen">
+					</div>
+					<div class="pop_cat-item_text">
+						<h3>Volkswagen</h3>
+						<ul>
+							<li>
+								<a href="#">Transporter</a>
+							</li>
+							<li>
+								<a href="#">Passat</a>
+							</li>
+							<li>
+								<a href="#">Sharan</a>
+							</li>
+							<li>
+								<a href="#">Golf</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-4">
+				<div class="pop_cat-item clearfix">
+					<div class="pop_cat-item_icon">
+						<img src="img/icons/renault.png" alt="renault">
+					</div>
+					<div class="pop_cat-item_text">
+						<h3>Renault</h3>
+						<ul>
+							<li>
+								<a href="#">Scenic</a>
+							</li>
+							<li>
+								<a href="#">Laguna</a>
+							</li>
+							<li>
+								<a href="#">Megane</a>
+							</li>
+							<li>
+								<a href="#">Espace</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-4">
+				<div class="pop_cat-item clearfix">
+					<div class="pop_cat-item_icon">
+						<img src="img/icons/opel.png" alt="opel">
+					</div>
+					<div class="pop_cat-item_text">
+						<h3>Opel</h3>
+						<ul>
+							<li>
+								<a href="#">Astra</a>
+							</li>
+							<li>
+								<a href="#">Zafira</a>
+							</li>
+							<li>
+								<a href="#">Vectra</a>
+							</li>
+							<li>
+								<a href="#">Omega</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-4">
+				<div class="pop_cat-item clearfix">
+					<div class="pop_cat-item_icon">
+						<img src="img/icons/ford.png" alt="ford">
+					</div>
+					<div class="pop_cat-item_text">
+						<h3>Ford</h3>
+						<ul>
+							<li>
+								<a href="#">Mondeo</a>
+							</li>
+							<li>
+								<a href="#">Transit</a>
+							</li>
+							<li>
+								<a href="#">Galaxy</a>
+							</li>
+							<li>
+								<a href="#">Focus</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-4">
+				<div class="pop_cat-item clearfix">
+					<div class="pop_cat-item_icon">
+						<img src="img/icons/peugeot.png" alt="peugeot">
+					</div>
+					<div class="pop_cat-item_text">
+						<h3>Peugeot</h3>
+						<ul>
+							<li>
+								<a href="#">406</a>
+							</li>
+							<li>
+								<a href="#">607</a>
+							</li>
+							<li>
+								<a href="#">307</a>
+							</li>
+							<li>
+								<a href="#">407</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-4">
+				<div class="pop_cat-item clearfix">
+					<div class="pop_cat-item_icon">
+						<img src="img/icons/citroen.png" alt="citroen">
+					</div>
+					<div class="pop_cat-item_text">
+						<h3>Citroen</h3>
+						<ul>
+							<li>
+								<a href="#">C5</a>
+							</li>
+							<li>
+								<a href="#">Xara</a>
+							</li>
+							<li>
+								<a href="#">C4</a>
+							</li>
+							<li>
+								<a href="#">Xantia</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-lg-12">
+				<a href="#" class="link_all">Смотреть все марки</a>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section class="section-special">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12">
+				<h2>Специальные предложения</h2>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-lg-12">
+				<div class="slider">
+					<div class="slider-item clearfix">
+						<div class="slider-item_img">
+							<div class="img" style="background-image: url(img/slide.png);"></div>
+						</div>
+						<div class="slider-item_descr">
+							<h4>Специальное предложение</h4>
+							<h2>Навесное для Volkswagen</h2>
+							<a href="#">Посмотреть</a>
+						</div>
+					</div>
+					<div class="slider-item clearfix">
+						<div class="slider-item_img">
+							<div class="img" style="background-image: url(img/slide.png);"></div>
+						</div>
+						<div class="slider-item_descr">
+							<h4>Специальное предложение</h4>
+							<h2>Навесное для Volkswagen</h2>
+							<a href="#">Посмотреть</a>
+						</div>
+					</div>
+					<div class="slider-item clearfix">
+						<div class="slider-item_img">
+							<div class="img" style="background-image: url(img/slide.png);"></div>
+						</div>
+						<div class="slider-item_descr">
+							<h4>Специальное предложение</h4>
+							<h2>Навесное для Volkswagen</h2>
+							<a href="#">Посмотреть</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<footer>
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-1"></div>
+			<div class="col-lg-2">
+				<h3>Компания</h3>
+				<ul>
+					<li>
+						<a href="#">Контакты</a>
+					</li>
+					<li>
+						<a href="#">О компании</a>
+					</li>
+				</ul>
+			</div>
+			<div class="col-lg-2">
+				<h3>Покупателям</h3>
+				<ul>
+					<li>
+						<a href="#">Доставка</a>
+					</li>
+					<li>
+						<a href="#">Гаранития</a>
+					</li>
+					<li>
+						<a href="#">Возврат</a>
+					</li>
+				</ul>
+			</div>
+			<div class="col-lg-3">
+				<h3>Каталоги</h3>
+				<ul>
+					<li>
+						<a href="#">Каталог запчастей</a>
+					</li>
+					<li>
+						<a href="#">Каталог автомобилей</a>
+					</li>
+				</ul>
+			</div>
+			<div class="col-lg-4">
+				<div class="footer-logo">
+					<img src="img/footer_logo.png" alt="footer logo" />
+				</div>
+				<p>Республика Беларусь <br/>
+				г. Минск, ул. Р.Люксембург, 195</p>
+				<p>ООО "Автопартс" УНП 101777777 <br/>
+				Дата регистрации торговом реестре <br/>
+				с 07.02.2017 г. №101777777, <br/>
+				выдан 11.07.2015 г., Мингорисполком.</p>
+				<div class="social-wrap">
+					<a href="#">
+						<i class="icon icon-fb"></i>
+					</a>
+					<a href="#">
+						<i class="icon icon-inst"></i>
+					</a>
+					<a href="#">
+						<i class="icon icon-ytube"></i>
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container">
+		<div class="row">
+			<div class="bottom-footer">
+				<div class="col-lg-1"></div>
+				<div class="col-lg-2">
+					<h3>Телефон</h3>
+					<ul>
+						<li>
+							<a href="tel:+375 (29) 679-43-54">+375 (29) 679-43-54</a>
+						</li>
+					</ul>
+				</div>
+				<div class="col-lg-2">
+					<h3>Время работы</h3>
+					<ul>
+						<li>Пн - Пт 9:00 - 18:00</li>
+						<li>Сб 10:00 - 16:00</li>
+					</ul>
+				</div>
+				<div class="col-lg-2">
+					<h3>E-mail</h3>
+					<ul>
+						<li>
+							<a href="mailto:motor@f-avto.by">motor@f-avto.by</a>
+						</li>
+					</ul>
+				</div>
+				<div class="col-lg-1"></div>
+				<div class="col-lg-4">
+					<h3>Адрес магазина</h3>
+					<ul>
+						<li>г. Минск, ул. Р.Люксембург, 195</li>
+					</ul>
+					<div class="card-wrap">
+						<i class="icon icon-visa"></i>
+						<i class="icon icon-mc"></i>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</footer>
+<div id="overlay"></div>
+
+	<script src="libs/jquery/jquery-3.2.1.min.js"></script>
+	<script src="libs/jq_form_styler/jquery_formstyler.min.js"></script>
+	<script src="libs/slick-1.8.0/slick.min.js"></script>
+	<script src="libs/custom_scrollbar/custom_scrollbar.min.js"></script>
+	<script src="assets/js/main_script.js"></script>
+</body>
+</html>

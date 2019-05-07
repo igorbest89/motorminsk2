@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="14px" viewBox="0 0 20 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>💚 Icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M0.833333333,7 C2.41916667,3.1991342 5.41666667,0.333333333 10,0.333333333 C14.5833333,0.333333333 17.5808333,3.1991342 19.1666667,7 C17.5808333,10.8008658 14.5833333,13.6666667 10,13.6666667 C5.41666667,13.6666667 2.41916667,10.8008658 0.833333333,7 Z M7.5,7 C7.5,5.61491903 8.61491903,4.5 10,4.5 C11.385081,4.5 12.5,5.61491903 12.5,7 C12.5,8.38508097 11.385081,9.5 10,9.5 C8.61491903,9.5 7.5,8.38508097 7.5,7 Z M5.83333333,7 C5.83333333,9.30555556 7.69444444,11.1666667 10,11.1666667 C12.3055556,11.1666667 14.1666667,9.30555556 14.1666667,7 C14.1666667,4.69444444 12.3055556,2.83333333 10,2.83333333 C7.69444444,2.83333333 5.83333333,4.69444444 5.83333333,7 Z" id="path-1"></path>
+    </defs>
+    <g id="Login-/-SignUp" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Уведомлеие-об-отправке-пароля" transform="translate(-815.000000, -418.000000)">
+            <g id="Вход">
+                <g id="Input-Pass" transform="translate(482.000000, 377.000000)">
+                    <g id="💚-Icon" transform="translate(333.000000, 41.000000)">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <use id="Mask" fill-opacity="0" fill="#051033" xlink:href="#path-1"></use>
+                        <g id="Color-/-Grey-/-Grey-Base-500" mask="url(#mask-2)" fill="#C9CED6">
+                            <g transform="translate(0.000000, -3.000000)" id="Grey-/-Grey-Base-500">
+                                <polygon points="0 0 20 0 20 20 0 20"></polygon>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

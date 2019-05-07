@@ -1,0 +1,312 @@
+/*---------------icons---------------*/
+.icon {
+	display: inline-block;
+	vertical-align: middle;
+	width: 16px;
+	height: 16px;
+	background: no-repeat 50% 50%;
+		-webkit-background-size: cover;
+		        background-size: cover;
+	&.icon-arrow {
+		width: 7px;
+		height: 10px;
+		background-image: url(../../img/icons/arrow.svg);
+	}
+	&.icon-arrow-b {
+		width: 9px;
+		background-image: url(../../img/icons/arrow-b.svg);
+	}
+	&.icon-back {
+		width: 9px;
+		background-image: url(../../img/icons/back.svg);
+	}
+	&.icon-arrow-d {
+		width: 10px;
+		height: 4px;
+		background-image: url(../../img/icons/arrow-d.svg);
+	}
+	&.icon-cart-back {
+		width: 8px;
+		height: 11px;
+		background-image: url(../../img/icons/cart-back.svg);
+	}
+	&.icon-cart-next {
+		width: 8px;
+		height: 11px;
+		background-image: url(../../img/icons/cart-next.png);
+	}
+	&.icon-sandwich {
+		width: 18px;
+		height: 14px;
+		background-image: url(../../img/icons/sandwich.svg);
+	}
+	&.icon-search {
+		background-image: url(../../img/icons/search.svg);
+	}
+	&.icon-search-2 {
+		width: 12px;
+		height: 12px;
+		background-image: url(../../img/icons/search-2.svg);
+	}
+	&.icon-phone {
+		background-image: url(../../img/icons/phone.svg);
+	}
+	&.icon-clock {
+		background-image: url(../../img/icons/clock.svg);
+	}
+	&.icon-cart {
+		background-image: url(../../img/icons/cart.svg);
+	}
+	&.icon-cart_white {
+		width: 15px;
+		background-image: url(../../img/icons/cart_white.svg);
+	}
+	&.icon-expand {
+		width: 26px;
+		height: 36px;
+		background-image: url(../../img/icons/expand.svg);
+	}
+	&.icon-delivery {
+		width: 60px;
+		height: 48px;
+		background-image: url(../../img/icons/delivery.svg);
+	}
+	&.icon-reserv {
+		width: 70px;
+		height: 35px;
+		background-image: url(../../img/icons/reserv.svg);
+	}
+	&.icon-collect {
+		width: 55px;
+		height: 53px;
+		background-image: url(../../img/icons/collect.svg);
+	}
+	&.icon-calc {
+		width: 44px;
+		height: 62px;
+		background-image: url(../../img/icons/calc.svg);
+	}
+	&.icon-cut {
+		width: 44px;
+		height: 62px;
+		background-image: url(../../img/icons/cut.svg);
+	}
+	&.icon-visa {
+		width: 40px;
+		height: 25px;
+		background-image: url(../../img/icons/visa.svg);
+	}
+	&.icon-mc {
+		width: 40px;
+		height: 25px;
+		background-image: url(../../img/icons/mc.svg);
+	}
+	&.icon-tw {
+		width: 18px;
+		height: 15px;
+		background-image: url(../../img/icons/tw.svg);
+	}
+	&.icon-inst {
+		background-image: url(../../img/icons/inst.svg);
+	}
+	&.icon-ytube {
+		height: 12px;
+		background-image: url(../../img/icons/ytube.svg);
+	}
+	&.icon-tw-2 {
+		width: 23px;
+		height: 19px;
+		background-image: url(../../img/icons/tw-2.svg);
+	}
+	&.icon-fb {
+		width: 9px;
+		height: 18px;
+		background-image: url(../../img/icons/fb.svg);
+	}
+	&.icon-fb-2 {
+		width: 12px;
+		height: 21px;
+		background-image: url(../../img/icons/fb-2.svg);
+	}
+	&.icon-vk-2 {
+		width: 24px;
+		height: 14px;
+		background-image: url(../../img/icons/vk-2.svg);
+	}
+	&.icon-gplus {
+		width: 25px;
+		background-image: url(../../img/icons/gplus.svg);
+	}
+	&.icon-listing_string {
+		width: 28px;
+		height: 17px;
+		background-image: url(../../img/icons/listing_string.svg);
+		&.active {
+			background-image: url(../../img/icons/listing_string_active.svg);
+		}
+	}
+	&.icon-listing_card {
+		width: 28px;
+		height: 17px;
+		background-image: url(../../img/icons/listing_card.svg);
+		&.active {
+			background-image: url(../../img/icons/listing_card_active.svg);
+		}
+	}
+	&.icon-add_to_cart {
+		width: 15px;
+		background-image: url(../../img/icons/add_to_cart.svg);
+	}
+	&.icon-download {
+		width: 26px;
+		height: 17px;
+		background-image: url(../../img/icons/download.svg);
+	}
+	&.icon-plus {
+		width: 14px;
+		height: 14px;
+		background-image: url(../../img/icons/plus.svg);
+	}
+	&.icon-contact-time {
+		background-image: url(../../img/icons/contact-time.svg);
+	}
+	&.icon-contact-phone {
+		background-image: url(../../img/icons/contact-phone.svg);
+	}
+	&.icon-contact-fax {
+		height: 14px;
+		background-image: url(../../img/icons/contact-fax.svg);
+	}
+	&.icon-contact-marker {
+		width: 12px;
+		background-image: url(../../img/icons/contact-marker.svg);
+	}
+	&.icon-contact-mail {
+		height: 12px;
+		background-image: url(../../img/icons/contact-mail.png);
+	}
+	&.icon-contact-pos {
+		background-image: url(../../img/icons/contact-pos.svg);
+	}
+	&.icon-contact-send {
+		width: 23px;
+		height: 19px;
+		background-image: url(../../img/icons/contact-send.svg);
+	}
+	&.icon-contact-sms {
+		width: 19px;
+		height: 21px;
+		background-image: url(../../img/icons/contact-sms.svg);
+	}
+	&.icon-close {
+		width: 12px;
+		height: 12px;
+		background-image: url(../../img/icons/close.png);
+		&:hover {
+			background-image: url(../../img/icons/close_hover.png);
+			cursor: pointer;
+		}
+	}
+	&.icon-done {
+		width: 60px;
+		height: 60px;
+		background-image: url(../../img/icons/done.svg);
+	}
+	&.icon-pagination-r {
+		width: 8px;
+		height: 14px;
+		background-image: url(../../img/icons/pagination-arr.png);
+	}
+	&.icon-pagination-l {
+		width: 8px;
+		height: 14px;
+		background-image: url(../../img/icons/pagination-arr.png);
+		transform: rotate(180deg);
+	}
+	&.icon-visible {
+		width: 18px;
+		height: 14px;
+		background-image: url(../../img/icons/visible.svg);
+		&:hover,
+		&.icon-visible-2 {
+			background-image: url(../../img/icons/visible_hover.svg);
+			cursor: pointer;
+		}
+	}
+	&.icon-delete {
+		background-image: url(../../img/icons/delete.svg);
+	}
+	&.icon-remove_prod {
+		width: 14px;
+		height: 14px;
+		background-image: url(../../img/icons/remove_prod.svg);
+	}
+	&.icon-done-2 {
+		width: 21px;
+		height: 20px;
+		background-image: url(../../img/icons/done-2.svg);
+	}
+	&.icon-done-cart {
+		width: 120px;
+		height: 120px;
+		background-image: url(../../img/icons/done-cart.svg);
+	}
+	&.icon-delete {
+		background-image: url(../../img/icons/delete.svg);
+	}
+	&.icon-inp_warning {
+		width: 14px;
+		height: 13px;
+		background-image: url(../../img/icons/input_warning.svg);
+	}
+	&.icon-inp_error {
+		width: 13px;
+		height: 13px;
+		background-image: url(../../img/icons/input_error.svg);
+	}
+	&.icon-home_mob {
+		width: 29px;
+		height: 24px;
+		background-image: url(../../img/icons/home_mob.png);
+	}
+	&.icon-account_mob {
+		width: 21px;
+		height: 25px;
+		background-image: url(../../img/icons/account_mob.png);
+	}
+	&.icon-search_mob {
+		width: 25px;
+		height: 25px;
+		background-image: url(../../img/icons/search_mob.png);
+	}
+	&.icon-menu_mob {
+		width: 23px;
+		height: 18px;
+		background-image: url(../../img/icons/menu_mob.png);
+	}
+	&.icon-cat_mob {
+		width: 15px;
+		height: 21px;
+		background-image: url(../../img/icons/cat_mob.png);
+	}
+	&.icon-tel_drop {
+		width: 10px;
+		height: 5px;
+		background-image: url(../../img/icons/tel_drop.png);
+	}
+	&.icon-close_mob_menu {
+		width: 12px;
+		height: 12px;
+		background-image: url(../../img/icons/close_mob_menu.png);
+	}
+	&.icon-back_mob {
+		width: 10px;
+		height: 23px;
+		background-image: url(../../img/icons/back_mob.png);
+	}
+	&.icon-mailbox {
+		width: 72px;
+		height: 72px;
+		background-image: url(../../img/icons/mailbox.png);
+	}
+}

@@ -1,0 +1,28 @@
+---------- Date: 2019-01-24 13:43:09 ~ IP : 172.19.0.1 ----------
+REQUEST URI : /index.php?route=product/category&path=33
+MOD DETAILS:
+   modFile   : /app/vqmod/xml/svg.xml
+   id        : SVG allow upload, logo
+   version   : 0.2
+   vqmver    : 2.6.0
+   author    : Michal Landsman
+
+File Name    : catalog/view/theme/*/template/common/header.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <img src="<?php echo $logo; ?>" title="<?php echo $name; ?>" alt="<?php echo $name; ?>" class="img-responsive" />
+----------------------------------------------------------------------
+
+
+---------- Date: 2019-01-24 14:13:23 ~ IP : 172.19.0.1 ----------
+REQUEST URI : /index.php?route=product/category&path=33
+MOD DETAILS:
+   modFile   : /app/vqmod/xml/svg.xml
+   id        : SVG allow upload, logo
+   version   : 0.2
+   vqmver    : 2.6.0
+   author    : Michal Landsman
+
+File Name    : catalog/view/theme/*/template/common/header.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <img src="<?php echo $logo; ?>" title="<?php echo $name; ?>" alt="<?php echo $name; ?>" class="img-responsive" />
+----------------------------------------------------------------------
+
+

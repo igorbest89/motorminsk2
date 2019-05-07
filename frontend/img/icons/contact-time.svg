@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>2. Icons / 2. Icon Box / 16 Size  / ic_email</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M8,9 L11.5,9 C11.7761424,9 12,9.22385763 12,9.5 C12,9.77614237 11.7761424,10 11.5,10 L7.5,10 C7.22385763,10 7,9.77614237 7,9.5 L7,3.5 C7,3.22385763 7.22385763,3 7.5,3 C7.77614237,3 8,3.22385763 8,3.5 L8,9 Z M8,16 C3.581722,16 0,12.418278 0,8 C0,3.581722 3.581722,0 8,0 C12.418278,0 16,3.581722 16,8 C16,12.418278 12.418278,16 8,16 Z M8,15 C11.8659932,15 15,11.8659932 15,8 C15,4.13400675 11.8659932,1 8,1 C4.13400675,1 1,4.13400675 1,8 C1,11.8659932 4.13400675,15 8,15 Z" id="path-1"></path>
+    </defs>
+    <g id="Контакты" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Контакты-Магазины-Центр-сантехники" transform="translate(-263.000000, -1031.000000)">
+            <g id="Questions" transform="translate(121.000000, 421.000000)">
+                <g id="Магазины-Центр-Сантехники" transform="translate(0.000000, 52.000000)">
+                    <g id="Кольцевая" transform="translate(138.000000, 469.000000)">
+                        <g id="Contact-Info" transform="translate(4.000000, 89.000000)">
+                            <g id="Time">
+                                <g id="2.-Icons-/-2.-Icon-Box-/-16-Size--/-ic_email">
+                                    <mask id="mask-2" fill="white">
+                                        <use xlink:href="#path-1"></use>
+                                    </mask>
+                                    <g id="ic_clock" fill-rule="nonzero"></g>
+                                    <g id="icon-color" mask="url(#mask-2)" fill="#8A94A6">
+                                        <rect id="Gray-20" x="0" y="0" width="16" height="16"></rect>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

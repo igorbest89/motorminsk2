@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="utf-8" />
+	<title>Cart</title>
+	<meta name="description" content="" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="shortcut icon" href="img/favicon.png" />
+
+	<link rel="stylesheet" href="libs/bootstrap/bootstrap-grid-3.3.1.min.css" />
+	<link rel="stylesheet" href="assets/css/reset.css" />
+	<link rel="stylesheet" href="libs/jq_form_styler/jquery_formstyler.css" />
+	<link rel="stylesheet" href="libs/slick-1.8.0/slick.css" />
+	<link rel="stylesheet" href="libs/custom_scrollbar/custom_scrollbar.css" />
+
+	<link rel="stylesheet" href="assets/css/fonts.css" />
+	<link rel="stylesheet" href="assets/css/main_style.css" />
+	<link rel="stylesheet" href="assets/css/media_style.css" />
+</head>
+<body>
+
+<section class="cart">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12">
+				<div class="cart-wrap">
+					<div class="cart-head">
+						<a href="#" class="back_link">
+							<i class="icon icon-back"></i>
+							<span>Назад</span>
+						</a>
+						<ul class="cart-nav clearfix">
+							<li id="cart_step_1" class="cart-nav_item active">
+								<div class="cart-nav_txt" href="#">
+									<span>1</span>
+									<p>Корзина</p>
+								</div>
+							</li>
+							<li id="cart_step_2" class="cart-nav_item">
+								<div class="cart-nav_txt" href="#">
+									<span>2</span>
+									<p>Доставка</p>
+								</div>
+							</li>
+							<li id="cart_step_3" class="cart-nav_item">
+								<div class="cart-nav_txt" href="#">
+									<span>3</span>
+									<p>Оплата</p>
+								</div>
+							</li>
+							<li id="cart_step_4" class="cart-nav_item">
+								<div class="cart-nav_txt" href="#">
+									<span>4</span>
+									<p>Счет</p>
+								</div>
+							</li>
+						</ul>
+					</div>
+					<div class="cart-body">
+						<ul class="cart-view">
+							<li id="cart_item_1" class="cart-view_item active">
+								<h2>Моя корзина</h2>
+								<table id="cart-list">
+									<thead>
+										<tr>
+											<th></th>
+											<th>Наименование</th>
+											<th>Стоимость</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td>
+												<img src="img/cart-img-1.png" alt="#" />
+											</td>
+											<td>
+												<span>Блок цилиндров дизельный на Citroen ZX</span>
+											</td>
+											<td>
+												<em class="result">159,96</em>
+												 руб.
+												<a href="#">
+													<i class="icon icon-remove_prod"></i>
+												</a>
+											</td>
+										</tr>
+										<tr>
+											<td>
+												<img src="img/cart-img-2.png" alt="#" />
+											</td>
+											<td>
+												<span>Моторчик стеклоподъемника переднего правого на Mercedes Benz Vito W638</span>
+											</td>
+											<td>
+												<em class="result">104,68</em>
+												 руб.
+												<a href="#">
+													<i class="icon icon-remove_prod"></i>
+												</a>
+											</td>
+										</tr>
+									</tbody>
+								</table>
+								<div class="clearfix">
+									<div class="cart-promo">
+										<span>ПРОМОКОД</span>
+										<label>
+											<input type="text" />
+											<i class="icon icon-done-2"></i>
+										</label>
+									</div>
+									<div class="cart-result clearfix">
+										<div class="result-wrap">
+											<span id="totalSum">264.40 руб.</span>
+										</div>
+										<div class="result-wrap">
+											<div class="result-item">
+												<span>Скидка по промокоду 3%</span>
+												<strong>−
+													<em id="promoSale">5.59</em> 
+													руб.
+												</strong>
+											</div>
+											<div class="result-item">
+												<span>Клиентская скидка 10%</span>
+												<strong>−
+													<em id="clientSale">5.59</em> 
+													руб.
+												</strong>
+											</div>
+											<div class="result-item">
+												<span>Итого:</span>
+												<strong>
+													<em id="resultSum">232,37</em> 
+													руб.
+												</strong>
+											</div>
+										</div>
+									</div>
+								</div>
+							</li>
+							<li id="cart_item_2" class="cart-view_item">
+								<div class="info clearfix">
+									<h2>Выбирите способ получения заказа</h2>
+									<div class="tabs">
+										<ul class="tabs_control clearfix">
+											<li class="tabs_control_item active">
+												<a class="tabs_control_link" href="#">Самовывоз</a>
+											</li>
+											<li class="tabs_control_item">
+												<a class="tabs_control_link" href="#">Доставка</a>
+											</li>
+										</ul>
+										<ul class="tabs_list">
+											<li class="tabs_item active">
+												<div class="progress_bar">
+													<span class="dote done"></span>
+													<span class="line"></span>
+													<span class="dote"></span>
+												</div>
+												<div class="date">
+													<i class="icon icon-contact-time"></i>
+													<span>Когда: </span>
+													<strong>17.01.2019г. с 9-00 до 18-00</strong>
+												</div>
+												<div class="addr">
+													<i class="icon icon-contact-marker"></i>
+													<span>Адрес склада:</span>
+													<strong>г. Минск, ул. Гурского, 3а</strong>
+												</div>
+												<div class="coordinate">
+													<i class="icon icon-contact-pos"></i>
+													<span>GPS координаты:</span>
+													<strong>53.849539, 27.511632</strong>
+												</div>
+											</li>
+											<li class="tabs_item">
+												<div class="progress_bar">
+													<span class="dote done"></span>
+													<span class="line"></span>
+													<span class="dote"></span>
+													<span class="line"></span>
+													<span class="dote"></span>
+												</div>
+												<form action="#">
+													<p>
+														<input type="radio" name="addr" checked="checked" />
+														<span>Минск 12 руб.</span>
+														<span>На завтра 18.01.2019 с 16:00 до 20:00</span>
+													</p>
+													<p>
+														<input type="radio" name="addr" />
+														<span>Республика Беларусь 25 руб.</span>
+														<span>На завтра 18.01.2019 с 16:00 до 20:00</span>
+													</p>
+													<h2>Адрес доставки</h2>
+													<label>
+														<span>Город</span>
+														<input type="text" placeholder="Ваш город" />
+													</label>
+													<label>
+														<span>Почтовый индекс</span>
+														<input type="text" placeholder="Ваш индекс" />
+													</label>
+													<label>
+														<span>Улица, № дома</span>
+														<input type="text" placeholder="Адрес доставки" />
+													</label>
+												</form>
+												<div class="contact_map">
+													<p>Проверьте правильность указанного адреса по карте</p>
+													<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2351.416870728307!2d27.499931316036452!3d53.888794141641576!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNTPCsDUzJzE5LjciTiAyN8KwMzAnMDcuNiJF!5e0!3m2!1sru!2sua!4v1547598265007" frameborder="0" allowfullscreen></iframe>
+												</div>
+											</li>
+										</ul>
+									</div>
+								</div>
+								<div class="add_info">
+									<h2>Для получения заказа укажите Ваши контакты</h2>
+									<form action="#">
+										<label>
+											<span>Имя</span>
+											<input type="text" placeholder="Ваше имя" />
+										</label>
+										<label>
+											<span>Фамилия</span>
+											<input type="text" placeholder="Ваша фамилия" />
+										</label>
+										<label>
+											<span>E-mail</span>
+											<input id="inputEmail" type="text" placeholder="Ваш E-mail" />
+											<em>На указанный E-mail будет отправлен счет</em>
+										</label>
+										<label>
+											<span>Телефон</span>
+											<input type="text" placeholder="+375 (29) 123-45-67" />
+										</label>
+									</form>
+								</div>
+							</li>
+							<li id="cart_item_3" class="cart-view_item">
+								<h2>Выбирите способ оплаты заказа</h2>
+								<div class="info clearfix">
+									<div class="payment_method">
+										<form action="#">
+											<p>
+												<input type="radio" name="payment_method" checked="checked" />
+												<span>Наличными в момент получения заказа</span>
+											</p>
+											<p>
+												<input type="radio" name="payment_method" />
+												<span>Банковской картой при получения заказа</span>
+											</p>
+											<p>
+												<input type="radio" name="payment_method" />
+												<span>Банковской картой сейчас</span>
+											</p>
+											<p>
+												<input id="radioPopup" type="radio" name="payment_method" />
+												<span>Безналичный расчет для юридических лиц</span>
+											</p>
+											<p>
+												<input type="radio" name="payment_method" />
+												<span>Оплата через ЕРИП</span>
+											</p>
+										</form>
+									</div>
+								</div>
+							</li>
+							<li id="cart_item_4" class="cart-view_item">
+								<div class="add_info clearfix">
+									<h1>Заказ  № 50250</h1>
+									<div class="add_info-item">
+										<h2>Способ получения заказа</h2>
+										<h3>Самовывоз</h3>
+										<div class="date">
+											<i class="icon icon-contact-time"></i>
+											<span>Когда: </span>
+											<strong>17.01.2019г. с 9-00 до 18-00</strong>
+										</div>
+										<div class="addr">
+											<i class="icon icon-contact-marker"></i>
+											<span>Адрес склада:</span>
+											<strong>г. Минск, ул. Гурского, 3а</strong>
+										</div>
+										<div class="coordinate">
+											<i class="icon icon-contact-pos"></i>
+											<span>GPS координаты:</span>
+											<strong>53.849539, 27.511632</strong>
+										</div>
+									</div>
+									<div class="add_info-item">
+										<h2>Получатель</h2>
+										<div class="addr name">
+											<span>Имя</span>
+											<strong>Игорь</strong>
+										</div>
+										<div class="addr name">
+											<span>Фамилия</span>
+											<strong>Сидоркевич</strong>
+										</div>
+										<div class="addr name">
+											<span>E-mail</span>
+											<strong>exemple@mail.com</strong>
+										</div>
+										<div class="addr name">
+											<span>Телефон</span>
+											<strong>+375 (29) 123-45-67</strong>
+										</div>
+									</div>
+									<div class="add_info-item">
+										<h2>Оплата</h2>
+										<div class="addr">
+											<strong>Наличными при получения заказа</strong>
+										</div>
+									</div>
+								</div>
+								<h2>Спецификация</h2>
+								<table id="cart-list">
+									<thead>
+										<tr>
+											<th></th>
+											<th>Наименование</th>
+											<th>Стоимость</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td>
+												<img src="img/cart-img-1.png" alt="#" />
+											</td>
+											<td>
+												<span>Блок цилиндров дизельный на Citroen ZX</span>
+											</td>
+											<td>
+												<em class="result">159,96</em>
+												 руб.
+											</td>
+										</tr>
+										<tr>
+											<td>
+												<img src="img/cart-img-2.png" alt="#" />
+											</td>
+											<td>
+												<span>Моторчик стеклоподъемника переднего правого на Mercedes Benz Vito W638</span>
+											</td>
+											<td>
+												<em class="result">104,68</em>
+												 руб.
+											</td>
+										</tr>
+									</tbody>
+								</table>
+								<div class="clearfix">
+									<div class="cart-result clearfix">
+										<div class="result-wrap">
+											<span>264.40 руб.</span>
+										</div>
+										<div class="result-wrap">
+											<div class="result-item">
+												<span>Скидка по промокоду 3%</span>
+												<strong>−
+													<em>5.59</em> 
+													руб.
+												</strong>
+											</div>
+											<div class="result-item">
+												<span>Клиентская скидка 10%</span>
+												<strong>−
+													<em>5.59</em> 
+													руб.
+												</strong>
+											</div>
+											<div class="result-item">
+												<span>Итого:</span>
+												<strong>
+													<em>232,37</em> 
+													руб.
+												</strong>
+											</div>
+										</div>
+									</div>
+								</div>
+							</li>
+						</ul>
+					</div>
+					<div class="cart-footer">
+						<div class="btn-wrap clearfix">
+							<a href="#" class="btn" id="prev-step">
+								<i class="icon icon-cart-back"></i>
+								<span>Назад в магазин</span>
+							</a>
+							<a href="#" class="btn-accent" id="next-step">
+								<span>Доставка</span>
+								<i class="icon icon-cart-next"></i>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<div class="popup" id="popup_data">
+	<div class="close_popup">
+		<i class="icon icon-close"></i>
+	</div>
+	<div class="popup_header">
+		<h3>Данные организации</h3>
+		<p>Для оформления документов</p>
+	</div>
+	<div class="popup_body">
+		<form action="#">
+			<label>
+				<span>Название организации</span>
+				<input type="text" />
+			</label>
+			<label>
+				<span>УНН</span>
+				<input type="text" />
+			</label>
+		</form>
+	</div>
+	<div class="popup_footer clearfix">
+		<button class="btn cancel_btn">Отмена</button>
+		<button class="btn btn-accent">Подтвердить</button>
+	</div>
+</div>
+<div id="overlay"></div>
+
+	<script src="libs/jquery/jquery-3.2.1.min.js"></script>
+	<script src="libs/jq_form_styler/jquery_formstyler.min.js"></script>
+	<script src="libs/slick-1.8.0/slick.min.js"></script>
+	<script src="libs/custom_scrollbar/custom_scrollbar.min.js"></script>
+	<script src="assets/js/main_script.js"></script>
+	<script src="assets/js/cart.js"></script>
+</body>
+</html>

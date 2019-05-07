@@ -1,0 +1,15 @@
+{
+  "extra": {
+    "filescopier": [
+      {
+        "source": "vendor/burdapraha/oc_svg/upload",
+        "destination": "upload",
+        "debug": "true"
+      }
+    ]
+  },
+  "require": {
+    "burdapraha/oc_svg": "^1.0",
+    "sasedev/composer-plugin-filecopier": "^1.1"
+  }
+}

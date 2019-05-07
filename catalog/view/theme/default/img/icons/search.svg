@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>search</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Main" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Main-Copy-5" transform="translate(-932.000000, -339.000000)" fill="#FFFFFF" fill-rule="nonzero">
+            <g id="Content" transform="translate(444.000000, 244.000000)">
+                <g id="Search-Input" transform="translate(10.000000, 82.000000)">
+                    <g id="Search-Btn" transform="translate(443.000000, 0.000000)">
+                        <path d="M50.7070164,26.293 L48.0000164,23.586 C48.6300164,22.536 49.0000164,21.311 49.0000164,20 C49.0000164,16.14 45.8590164,13 42.0000164,13 C38.1410164,13 35.0000164,16.14 35.0000164,20 C35.0000164,23.86 38.1410164,27 42.0000164,27 C43.3120164,27 44.5360164,26.631 45.5860164,26 L48.2930164,28.707 C48.4880164,28.902 48.7440164,29 49.0000164,29 C49.2560164,29 49.5120164,28.902 49.7070164,28.707 L50.7070164,27.707 C51.0980164,27.316 51.0980164,26.684 50.7070164,26.293 Z M42.0000164,25 C39.2390164,25 37.0000164,22.761 37.0000164,20 C37.0000164,17.239 39.2390164,15 42.0000164,15 C44.7610164,15 47.0000164,17.239 47.0000164,20 C47.0000164,22.761 44.7610164,25 42.0000164,25 Z" id="search"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

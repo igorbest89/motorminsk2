@@ -1,0 +1,34 @@
+{
+	"name" : "sasedev/composer-plugin-filecopier",
+	"description" : "Composer Plugin Mass Files Copier",
+	"keywords" : [
+		"composer plugin",
+		"files copy",
+		"recursive copy"
+	],
+	"license" : "MIT",
+	"authors" : [{
+			"name" : "Salah Abdelkader Seif Eddine",
+			"email" : "seif.salah@gmail.com"
+		}
+	],
+	"type" : "composer-plugin",
+	"autoload" : {
+		"psr-4" : {
+			"" : "src/"
+		}
+	},
+	"require" : {
+		"php" : ">=5.5",
+		"composer-plugin-api" : "^1.0"
+	},
+	"require-dev" : {
+		"composer/composer" : "^1.0|1.0@dev"
+	},
+	"extra" : {
+		"class" : "Sasedev\\Composer\\Plugin\\Filescopier\\ScriptHandler",
+		"branch-alias" : {
+			"dev-master" : "1.0.x-dev"
+		}
+	}
+}

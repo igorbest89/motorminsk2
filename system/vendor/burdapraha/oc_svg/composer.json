@@ -1,0 +1,8 @@
+{
+  "name": "burdapraha/oc_svg",
+  "type": "vqmod-plugin",
+  "description": "OpenCart 2.x hacked to allow SVG support",
+  "keywords": ["opencart", "svg", "opencart-theme", "opencart-2"],
+  "homepage": "http://burda.cz/cs/kariera/volna-mista#tester-koder",
+  "license": "MIT"
+}

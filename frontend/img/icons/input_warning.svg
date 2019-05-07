@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="14px" height="13px" viewBox="0 0 14 13" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>↳💚 Icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M9.75579115,3.21895043 L14.3867068,11.7089624 C14.9156322,12.6786591 14.5583166,13.8935324 13.5886199,14.4224578 C13.2948427,14.5826999 12.9655536,14.6666667 12.6309156,14.6666667 L3.36908438,14.6666667 C2.26451488,14.6666667 1.36908438,13.7712362 1.36908438,12.6666667 C1.36908438,12.3320287 1.45305112,12.0027396 1.61329323,11.7089624 L6.24420885,3.21895043 C6.77313431,2.24925376 7.98800759,1.89193809 8.95770426,2.42086355 C9.2948373,2.6047543 9.5719004,2.8818174 9.75579115,3.21895043 Z M8.06349206,11 C7.69530223,11 7.3968254,11.2984768 7.3968254,11.6666667 C7.3968254,12.0348565 7.69530223,12.3333333 8.06349206,12.3333333 C8.4316819,12.3333333 8.73015873,12.0348565 8.73015873,11.6666667 C8.73015873,11.2984768 8.4316819,11 8.06349206,11 Z M8.06349206,6 C7.69530223,6 7.3968254,6.29847683 7.3968254,6.66666667 L7.3968254,9.33333333 C7.3968254,9.70152317 7.69530223,10 8.06349206,10 C8.4316819,10 8.73015873,9.70152317 8.73015873,9.33333333 L8.73015873,6.66666667 C8.73015873,6.29847683 8.4316819,6 8.06349206,6 Z" id="path-1"></path>
+        <rect id="path-3" x="0" y="0" width="16" height="16"></rect>
+    </defs>
+    <g id="Корзина" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Корзина-Самовывоз" transform="translate(-45.875000, -1067.000000)">
+            <g id="Данные-для-получения" transform="translate(33.000000, 641.000000)">
+                <g id="Input-Телефон" transform="translate(0.000000, 346.000000)">
+                    <g id="⚠️-Message-Type" transform="translate(0.000000, 70.000000)">
+                        <g id="Icon-/-Solid-/-Alert" transform="translate(12.000000, 8.000000)">
+                            <mask id="mask-2" fill="white">
+                                <use xlink:href="#path-1"></use>
+                            </mask>
+                            <use id="Mask" fill-opacity="0" fill="#051033" fill-rule="evenodd" xlink:href="#path-1"></use>
+                            <g id="Color-/-Yellow-/-Yellow-800" mask="url(#mask-2)">
+                                <mask id="mask-4" fill="white">
+                                    <use xlink:href="#path-3"></use>
+                                </mask>
+                                <g id="Background"></g>
+                                <polygon id="Yellow-/-Yellow-800" fill="#FF8F00" fill-rule="evenodd" mask="url(#mask-4)" points="0 0 16 0 16 16 0 16"></polygon>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,86 @@
+[
+    {
+        "name": "burdapraha/oc_svg",
+        "version": "1.0.5",
+        "version_normalized": "1.0.5.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/BurdaPraha/oc_svg.git",
+            "reference": "f1a2f7257bc8f8872f8bf1214793440e4555e93a"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/BurdaPraha/oc_svg/zipball/f1a2f7257bc8f8872f8bf1214793440e4555e93a",
+            "reference": "f1a2f7257bc8f8872f8bf1214793440e4555e93a",
+            "shasum": ""
+        },
+        "time": "2017-07-10T14:19:01+00:00",
+        "type": "vqmod-plugin",
+        "installation-source": "dist",
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "description": "OpenCart 2.x hacked to allow SVG support",
+        "homepage": "http://burda.cz/cs/kariera/volna-mista#tester-koder",
+        "keywords": [
+            "opencart",
+            "opencart-2",
+            "opencart-theme",
+            "svg"
+        ]
+    },
+    {
+        "name": "sasedev/composer-plugin-filecopier",
+        "version": "1.1.0",
+        "version_normalized": "1.1.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/sasedev/composer-plugin-filecopier.git",
+            "reference": "65816b33e852e01000f6965e0a9dacbed9a0112c"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/sasedev/composer-plugin-filecopier/zipball/65816b33e852e01000f6965e0a9dacbed9a0112c",
+            "reference": "65816b33e852e01000f6965e0a9dacbed9a0112c",
+            "shasum": ""
+        },
+        "require": {
+            "composer-plugin-api": "^1.0",
+            "php": ">=5.5"
+        },
+        "require-dev": {
+            "composer/composer": "^1.0|1.0@dev"
+        },
+        "time": "2016-01-22T00:36:25+00:00",
+        "type": "composer-plugin",
+        "extra": {
+            "class": "Sasedev\\Composer\\Plugin\\Filescopier\\ScriptHandler",
+            "branch-alias": {
+                "dev-master": "1.0.x-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Salah Abdelkader Seif Eddine",
+                "email": "seif.salah@gmail.com"
+            }
+        ],
+        "description": "Composer Plugin Mass Files Copier",
+        "keywords": [
+            "Recursive Copy",
+            "composer plugin",
+            "files copy"
+        ]
+    }
+]
